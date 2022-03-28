@@ -1,0 +1,8 @@
+{
+  "name": "SmartAC",
+  "homeassistant": "0.115.0",
+  "country": "CN",
+  "domains": ["climate"],
+  "render_readme": true,
+  "persistent_directory": "codes"
+}

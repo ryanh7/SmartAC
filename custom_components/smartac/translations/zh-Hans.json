@@ -1,0 +1,74 @@
+{
+    "config": {
+        "abort": {
+            "no_index": "缺少空调索引文件",
+            "invalid_index": "无法解析空调索引文件"
+        },
+        "error": {
+            "no_device_file": "缺失遥控器编码文件，请确认SmartAC组件完整性或测试下一个编码",
+            "invalid_device_file": "遥控器编码文件解析失败，请换个编码试试",
+            "no_such_service": "没有找到指定的红外发射服务ID，请检查红外发射服务ID的拼写",
+            "call_service_failed": "调用红外发射服务失败，请检查日志或重新输入正确的服务ID"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "brand": "空调品牌"
+                },
+                "description": "请选择你的空调品牌",
+                "title": "空调品牌"
+            },
+            "device": {
+                "data": {
+                    "device": "遥控器编码",
+                    "controller_service": "红外发射服务"
+                },
+                "description": "请选择其中一个遥控器编码，提交后进入测试流程。请确保设置正确的红外发射器的服务ID。",
+                "title": "设置遥控信息"
+            },
+            "test_on": {
+                "data": {
+                    "ok": "空调已响应",
+                    "device": "下一个测试的遥控器编码",
+                    "controller_service": "红外发射服务"
+                },
+                "description": "已发送开机指令，空调是否已响应？勾选并提交进入下一步，不勾选并提交继续测试下一个编码",
+                "title": "开机"
+            },
+            "test_off": {
+                "data": {
+                    "ok": "空调已响应",
+                    "device": "下一个测试的遥控器编码",
+                    "controller_service": "红外发射服务"
+                },
+                "description": "已发送关机指令，空调是否已响应？勾选并提交进入其他设置，不勾选并提交继续测试下一个编码",
+                "title": "关机"
+            },
+            "other": {
+                "data": {
+                    "name": "空调名称",
+                    "temperature_sensor": "温度传感器",
+                    "humidity_sensor": "湿度传感器",
+                    "power_sensor": "电源传感器"
+                },
+                "title": "其他设置"
+            }
+        }
+    },
+    "options": {
+        "abort": {
+            "demo": "Demo"
+        },
+        "step": {
+            "init": {
+                "data": {
+                    "controller_service": "红外发射服务ID",
+                    "temperature_sensor": "温度传感器",
+                    "humidity_sensor": "湿度传感器",
+                    "power_sensor": "电源传感器"
+                },
+                "title": "更改设置"
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "config": {
+        "error": {
+            "no_index": "missing index json file",
+            "invalid_index": "invalid index json file"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "brand": "Brand Name"
+                },
+                "description": "Please select the brand name of you climate",
+                "title": "Brand"
+            },
+            "device": {
+                "data": {
+                    "name": "Name",
+                    "device": "Device",
+                    "controller_service": "Transmitter",
+                    "temperature_sensor": "Temperature Sensor",
+                    "humidity_sensor": "Humidity Sensor",
+                    "power_sensor": "Power Sensor"
+                },
+                "title": "Device Info"
+            }
+        }
+    },
+    "options": {
+        "abort": {
+            "not_setup": "HACS is not setup.",
+            "release_limit_value": "The release limit needs to be between 1 and 100"
+        },
+        "step": {
+            "init": {
+                "data": {
+                    "device": "Device",
+                    "controller_service": "Transmitter",
+                    "temperature_sensor": "Temperature Sensor",
+                    "humidity_sensor": "Humidity Sensor",
+                    "power_sensor": "Power Sensor"
+                },
+                "title": "Device Info"
+            }
+        }
+    }
+}

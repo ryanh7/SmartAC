@@ -1,0 +1,24 @@
+{
+  "domain": "smartac",
+  "name": "SmartAC",
+  "documentation": "https://github.com/ryanh7/SmartAC",
+  "config_flow": true,
+  "dependencies": [],
+  "codeowners": ["@ryan"],
+  "requirements": [],
+  "homeassistant": "2022.2.0",
+  "version": "1.0.0",
+  "updater": {
+    "version": "1.0.0",
+    "releaseNotes": "first release",
+    "files": [
+      "__init__.py",
+      "climate.py",
+      "config_flow.py",
+      "irext.py",
+      "const.py",
+      "manifest.json",
+      "services.yaml"
+    ]
+  }
+}
