@@ -28,18 +28,20 @@ from homeassistant.const import (
 )
 from . import CODES_AB_DIR, _LOGGER
 from .util import bin_to_json
+from .controller import get_controller
 
 from .const import (
+    CONF_BRAND,
     CONF_MODEL,
     DOMAIN,
     CONF_DEVICE,
-    CONF_CONTROLLER_SERVICE,
+    CONF_CONTROLLER_DATA,
+    CONF_CONTROLLER_TYPE,
     CONF_TEMPERATURE_SENSOR,
     CONF_HUMIDITY_SENSOR,
     CONF_POWER_SENSOR,
+    DEFAULT_DELAY
 )
-
-DEFAULT_DELAY = 0.5
 
 SUPPORT_FLAGS = (
     SUPPORT_TARGET_TEMPERATURE |
@@ -90,14 +92,6 @@ class SmartACClimate(ClimateEntity, RestoreEntity):
       #  self._power_sensor_restore_state = config.get(CONF_POWER_SENSOR_RESTORE_STATE)
         self._power_sensor_restore_state = False
 
-        service = config.get(CONF_CONTROLLER_SERVICE).split('.')
-        if len(service) > 1:
-            self._service_domain = service[0]
-            self._service = service[1]
-        else:
-            self._service_domain = 'esphome'
-            self._service = service[0]
-
         self._min_temperature = device_data['minTemperature']
         self._max_temperature = device_data['maxTemperature']
         self._precision = device_data['precision']
@@ -136,10 +130,15 @@ class SmartACClimate(ClimateEntity, RestoreEntity):
         self._attr_unique_id = self._unique_id
         self._attr_device_info = DeviceInfo(
             identifiers={(DOMAIN, self._unique_id)},
-            manufacturer="SmartAC",
+            manufacturer=config.get(CONF_BRAND),
             model=config.get(CONF_MODEL)
         )
-        _LOGGER.warning("ok", self)
+        
+        self._controller = get_controller(
+            self.hass,
+            config.get(CONF_CONTROLLER_TYPE),
+            config.get(CONF_CONTROLLER_DATA),
+            self._delay)
 
     async def async_added_to_hass(self):
         """Run when entity about to be added."""
@@ -339,12 +338,6 @@ class SmartACClimate(ClimateEntity, RestoreEntity):
         else:
             await self.async_set_hvac_mode(self._operation_modes[1])
 
-    async def send_ir(self, command):
-        service_data = {'command':  json.loads(command)}
-
-        await self.hass.services.async_call(
-            self._service_domain, self._service, service_data)
-
     async def send_command(self):
         async with self._temp_lock:
             try:
@@ -355,18 +348,18 @@ class SmartACClimate(ClimateEntity, RestoreEntity):
                 target_temperature = '{0:g}'.format(self._target_temperature)
 
                 if operation_mode.lower() == HVAC_MODE_OFF:
-                    await self.send_ir(self._commands['off'])
+                    await self._controller.send(self._commands['off'])
                     return
 
                 if 'on' in self._commands:
-                    await self.send_ir(self._commands['on'])
+                    await self._controller.send(self._commands['on'])
                     await asyncio.sleep(self._delay)
 
                 if self._support_swing == True:
-                    await self.send_ir(
+                    await self._controller.send(
                         self._commands[operation_mode][fan_mode][swing_mode][target_temperature])
                 else:
-                    await self.send_ir(
+                    await self._controller.send(
                         self._commands[operation_mode][fan_mode][target_temperature])
 
             except Exception as e:

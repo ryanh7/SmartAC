@@ -1,45 +1,73 @@
 {
     "config": {
+        "abort": {
+            "no_index": "Missing index file",
+            "invalid_index": "Invalid index file"
+        },
         "error": {
-            "no_index": "missing index json file",
-            "invalid_index": "invalid index json file"
+            "no_device_file": "The remote control code file is missing, please confirm the integrity of SmartAC integration or test the next code",
+            "invalid_device_file": "Failed to parse the remote control code file, please try another code.",
+            "no_such_service": "The specified IR Transmitter Service ID was not found, please check the spelling of the IR Transmitter Service ID/Entry ID",
+            "call_service_failed": "Failed to call the service, please check the log or re-enter the correct service ID/entry ID"
         },
         "step": {
             "user": {
                 "data": {
-                    "brand": "Brand Name"
+                    "brand": "Brand"
                 },
-                "description": "Please select the brand name of you climate",
+                "description": "Please select your brand",
                 "title": "Brand"
             },
             "device": {
                 "data": {
-                    "name": "Name",
-                    "device": "Device",
-                    "controller_service": "Transmitter",
-                    "temperature_sensor": "Temperature Sensor",
-                    "humidity_sensor": "Humidity Sensor",
-                    "power_sensor": "Power Sensor"
+                    "device": "Remote control code",
+                    "controller_type": "Controller Type",
+                    "controller_data": "Service ID/Entry ID"
                 },
-                "title": "Device Info"
+                "description": "Please select one of the remote control codes, and enter the test process after submitting. Make sure to set the correct IR Transmitter Service ID/Entry ID.",
+                "title": "Set remote control information"
+            },
+            "test_on": {
+                "data": {
+                    "ok": "Air conditioner has responded",
+                    "device": "Remote control code for next test",
+                    "controller_type": "Controller Type",
+                    "controller_data": "Service ID/Entry ID"
+                },
+                "description": "The power-on command has been sent, has the air conditioner responded? Check and submit to go to the next step, do not check and submit to continue testing the next code",
+                "title": "Power On"
+            },
+            "test_off": {
+                "data": {
+                    "ok": "Air conditioner has responded",
+                    "device": "Remote control code for next test",
+                    "controller_data": "IR Transmitter Service ID"
+                },
+                "description": "The power-off command has been sent, has the air conditioner responded? Check and submit to go to the next step, do not check and submit to continue testing the next code",
+                "title": "Power Off"
+            },
+            "other": {
+                "data": {
+                    "name": "Air conditioner name",
+                    "temperature_sensor": "Temperature Sensor Entity ID",
+                    "humidity_sensor": "Humidity Sensor Entity ID",
+                    "power_sensor": "Power Sensor Entity ID"
+                },
+                "title": "Other settings"
             }
         }
     },
     "options": {
-        "abort": {
-            "not_setup": "HACS is not setup.",
-            "release_limit_value": "The release limit needs to be between 1 and 100"
-        },
         "step": {
             "init": {
                 "data": {
-                    "device": "Device",
-                    "controller_service": "Transmitter",
-                    "temperature_sensor": "Temperature Sensor",
-                    "humidity_sensor": "Humidity Sensor",
-                    "power_sensor": "Power Sensor"
+                    "controller_type": "Controller Type",
+                    "controller_data": "Service ID/Entry ID",
+                    "temperature_sensor": "Temperature Sensor Entity ID",
+                    "humidity_sensor": "Humidity Sensor Entity ID",
+                    "power_sensor": "Power Sensor Entity ID"
                 },
-                "title": "Device Info"
+                "title": "Update settings"
             }
         }
     }

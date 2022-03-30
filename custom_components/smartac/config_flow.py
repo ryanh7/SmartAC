@@ -9,27 +9,33 @@ from homeassistant.const import CONF_NAME, CONF_UNIQUE_ID
 from homeassistant.core import callback
 import homeassistant.helpers.config_validation as cv
 
+from .controller import BROADLINK_CONTROLLER, ESPHOME_CONTROLLER, get_controller
+
 from .irext import AC, MODE_AUTO, SPEED_AUTO, POWER_ON, POWER_OFF
 
 from .const import (
+    CONF_CONTROLLER_TYPE,
     CONF_MODEL,
     DOMAIN,
     CONF_BRAND,
     CONF_DEVICE,
-    CONF_CONTROLLER_SERVICE,
+    CONF_CONTROLLER_DATA,
     CONF_TEMPERATURE_SENSOR,
     CONF_HUMIDITY_SENSOR,
     CONF_POWER_SENSOR,
     CONF_OK,
+    DEFAULT_DELAY
 )
 
 from . import CODES_AB_DIR, _LOGGER
+
+controllers = [ESPHOME_CONTROLLER, BROADLINK_CONTROLLER]
 
 
 class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Handle a config flow for HomeKit."""
 
-    VERSION = 1
+    VERSION = 2
 
     def __init__(self) -> None:
         """Initialize config flow."""
@@ -85,7 +91,8 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             data_schema=vol.Schema(
                 {
                     vol.Required(CONF_DEVICE): vol.In(self.devices),
-                    vol.Required(CONF_CONTROLLER_SERVICE): cv.string,
+                    vol.Required(CONF_CONTROLLER_TYPE, default=ESPHOME_CONTROLLER): vol.In(controllers),
+                    vol.Required(CONF_CONTROLLER_DATA): cv.string,
                 }
             ),
             # errors=errors,
@@ -101,13 +108,11 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 self.config.update(user_input)
 
         # test on here
-        ret = await self.async_test(
-            self.config[CONF_CONTROLLER_SERVICE], self.config[CONF_DEVICE], True
-        )
+        ret = await self.async_test(True)
         errors.update(ret)
 
         next_device = None
-        if CONF_CONTROLLER_SERVICE in errors:
+        if CONF_CONTROLLER_DATA in errors:
             next_device = self.config[CONF_DEVICE]
         else:
             for k in self.devices.keys():
@@ -125,9 +130,10 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                     vol.Required(CONF_DEVICE, default=next_device): vol.In(
                         self.devices
                     ),
+                    vol.Required(CONF_CONTROLLER_TYPE, default=self.config[CONF_CONTROLLER_TYPE]): vol.In(controllers),
                     vol.Required(
-                        CONF_CONTROLLER_SERVICE,
-                        default=self.config[CONF_CONTROLLER_SERVICE],
+                        CONF_CONTROLLER_DATA,
+                        default=self.config[CONF_CONTROLLER_DATA],
                     ): cv.string,
                 }
             ),
@@ -145,13 +151,11 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 return await self.async_step_test_on()
 
         # test off here
-        ret = await self.async_test(
-            self.config[CONF_CONTROLLER_SERVICE], self.config[CONF_DEVICE], False
-        )
+        ret = await self.async_test(self.config[CONF_DEVICE])
         errors.update(ret)
 
         next_device = None
-        if CONF_CONTROLLER_SERVICE in errors:
+        if CONF_CONTROLLER_DATA in errors:
             next_device = self.config[CONF_DEVICE]
         else:
             for k in self.devices.keys():
@@ -169,35 +173,16 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                     vol.Required(CONF_DEVICE, default=next_device): vol.In(
                         self.devices
                     ),
+                    vol.Required(CONF_CONTROLLER_TYPE, default=self.config[CONF_CONTROLLER_TYPE]): vol.In(controllers),
                     vol.Required(
-                        CONF_CONTROLLER_SERVICE,
-                        default=self.config[CONF_CONTROLLER_SERVICE],
+                        CONF_CONTROLLER_DATA,
+                        default=self.config[CONF_CONTROLLER_DATA],
                     ): cv.string,
                 }
             ),
             errors=errors,
         )
 
-    async def async_step_test_cool(self, user_input=None):
-        return self.async_show_form(
-            step_id="test_cool",
-            data_schema=vol.Schema(
-                {
-                    vol.Required(CONF_NAME, default=self.config[CONF_BRAND]): cv.string,
-                    vol.Required(CONF_DEVICE): vol.In(
-                        {
-                            device["bin"]: device["device_name"]
-                            for device in self.devices
-                        }
-                    ),
-                    vol.Required(CONF_CONTROLLER_SERVICE): cv.string,
-                    vol.Optional(CONF_TEMPERATURE_SENSOR): cv.string,
-                    vol.Optional(CONF_HUMIDITY_SENSOR): cv.string,
-                    vol.Optional(CONF_POWER_SENSOR): cv.string,
-                }
-            ),
-            # errors=errors,
-        )
 
     async def async_step_other(self, user_input=None):
         # errors = {}
@@ -229,7 +214,8 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
         return self.async_create_entry(title=self.config[CONF_NAME], data=self.config)
 
-    async def async_test(self, service_id, device_file, power_on):
+    async def async_test(self, power_on):
+        device_file = self.config[CONF_DEVICE]
         device_bin_path = os.path.join(CODES_AB_DIR, device_file)
         if not os.path.exists(device_bin_path):
             _LOGGER.error(
@@ -253,25 +239,17 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 _LOGGER.error("The device bin file is invalid")
                 return {CONF_DEVICE: "invalid_device_file"}
 
-        service_domain = "esphome"
+        controller = get_controller(self.hass, self.config[CONF_CONTROLLER_TYPE], self.config[CONF_CONTROLLER_DATA], DEFAULT_DELAY)
 
-        service = service_id.split(".")
-        if len(service) >= 2:
-            service_domain = service[0]
-            service_id = service[1]
-
-        if not self.hass.services.has_service(service_domain, service_id):
-            return {CONF_CONTROLLER_SERVICE: "no_such_service"}
+        if not await controller.exist():
+            return {CONF_CONTROLLER_DATA: "no_such_service"}
 
         try:
-            service_data = {"command": raw}
-            await self.hass.services.async_call(
-                service_domain, service_id, service_data
-            )
+            await controller.send(raw)
             return {}
         except Exception:
-            _LOGGER.error("call service failed")
-            return {CONF_CONTROLLER_SERVICE: "call_service_failed"}
+            _LOGGER.exception("controller send failed")
+            return {CONF_CONTROLLER_DATA: "call_service_failed"}
 
     @staticmethod
     @callback
@@ -287,19 +265,6 @@ class OptionsFlowHandler(config_entries.OptionsFlow):
         """Initialize options flow."""
         self.config_entry = config_entry
         self.config = dict(config_entry.data)
-        # self.options = dict(config_entry.options)
-
-        with open(os.path.join(COMPONENT_ABS_DIR, "index.json")) as j:
-            try:
-                self.ac_index = json.load(j)
-            except Exception:
-                _LOGGER.error("The device Json file is invalid")
-                return
-
-        for brand in self.ac_index:
-            if brand["brand_name"] == self.config.get(CONF_BRAND):
-                self.devices = brand["devices"]
-                break
 
     async def async_step_init(self, user_input=None):
         """Handle options flow."""
@@ -317,10 +282,10 @@ class OptionsFlowHandler(config_entries.OptionsFlow):
             step_id="init",
             data_schema=vol.Schema(
                 {
-                    # vol.Required(CONF_NAME, default=self.config.get(CONF_NAME)): cv.string,
+                    vol.Required(CONF_CONTROLLER_TYPE, default=self.config[CONF_CONTROLLER_TYPE]): vol.In(controllers),
                     vol.Required(
-                        CONF_CONTROLLER_SERVICE,
-                        default=self.config.get(CONF_CONTROLLER_SERVICE),
+                        CONF_CONTROLLER_DATA,
+                        default=self.config.get(CONF_CONTROLLER_DATA),
                     ): cv.string,
                     vol.Optional(
                         CONF_TEMPERATURE_SENSOR,

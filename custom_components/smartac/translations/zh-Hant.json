@@ -7,8 +7,8 @@
         "error": {
             "no_device_file": "缺少遙控器編碼文件，請確認 SmartAC 組件完整性或測試下一個編碼",
             "invalid_device_file": "遙控器編碼文件解析失敗，請換個編碼試試",
-            "no_such_service": "沒有找到指定的紅外發射的服務，請檢查紅外發射服務的名稱",
-            "call_service_failed": "使用紅外發射服務失敗，請檢查日誌或重新輸入正確紅外發射的服務"
+            "no_such_service": "沒有找到指定的紅外發射的服務，請檢查紅外發射服務ID或實體ID",
+            "call_service_failed": "使用紅外發射服務失敗，請檢查日誌或重新輸入正確紅外發射的服務ID/實體ID"
         },
         "step": {
             "user": {
@@ -21,16 +21,18 @@
             "device": {
                 "data": {
                     "device": "遙控器編碼",
-                    "controller_service": "紅外發射服務"
+                    "controller_type": "紅外發射器類型",
+                    "controller_data": "esphome發射服務ID/博聯紅外實體ID"
                 },
-                "description": "請選擇其中一個遙控器編碼，按傳送後進入測試流程。請確認設定正確的紅外發射服務。",
+                "description": "請選擇其中一個遙控器編碼，按傳送後進入測試流程。請確認設定正確的紅外發射服務ID或實體ID",
                 "title": "設定遙控訊息"
             },
             "test_on": {
                 "data": {
                     "ok": "空調已回應",
                     "device": "下一個測試的遙控器編碼",
-                    "controller_service": "紅外發射服務"
+                    "controller_type": "紅外發射器類型",
+                    "controller_data": "esphome發射服務ID/博聯紅外實體ID"
                 },
                 "description": "已發送開機指令，空調是否已回應？勾選後進入下一步，不勾選後繼續測試下一個編碼",
                 "title": "開機"
@@ -39,7 +41,8 @@
                 "data": {
                     "ok": "空調已回應",
                     "device": "下一個測試的遙控器編碼",
-                    "controller_service": "紅外發射服務"
+                    "controller_type": "紅外發射器類型",
+                    "controller_data": "esphome發射服務ID/博聯紅外實體ID"
                 },
                 "description": "已發送關機指令，空調是否已回應？勾選後進入其他設定，不勾選後繼續測試下一個編碼",
                 "title": "關機"
@@ -56,13 +59,11 @@
         }
     },
     "options": {
-        "abort": {
-            "demo": "Demo"
-        },
         "step": {
             "init": {
                 "data": {
-                    "controller_service": "紅外發射服務",
+                    "controller_type": "紅外發射器類型",
+                    "controller_data": "esphome發射服務ID/博聯紅外實體ID",
                     "temperature_sensor": "溫度感應器",
                     "humidity_sensor": "濕度感應器",
                     "power_sensor": "電源感應器"

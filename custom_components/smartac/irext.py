@@ -352,8 +352,8 @@ class AC:
         for delay in self._delay:
             if delay['pos'] == -1:
                 ir_raw.extend(delay['time'])
-        for i in range(1, len(ir_raw), 2):
-            ir_raw[i] = -ir_raw[i]
+        # for i in range(1, len(ir_raw), 2):
+        #     ir_raw[i] = -ir_raw[i]
         ir_raw *= self._repeat_time
         return ir_hex, ir_raw
 

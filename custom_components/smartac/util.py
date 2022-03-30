@@ -1,4 +1,3 @@
-import json
 from collections import defaultdict
 from homeassistant.components.climate.const import (
     FAN_AUTO,
@@ -46,11 +45,10 @@ def bin_to_json(bin_data):
                 speed_key = speed_map[s]
                 temperature_key = "%d" % t
                 _, raw = ac.ir_decode(POWER_ON, t, m, s)
-                decode_json["commands"][mode_key][speed_key][temperature_key] = json.dumps(
-                    raw, ensure_ascii=False)
+                decode_json["commands"][mode_key][speed_key][temperature_key] = raw
     _, raw = ac.ir_decode(POWER_OFF, 26, MODE_AUTO, SPEED_AUTO)
 
-    decode_json["commands"]["off"] = json.dumps(raw, ensure_ascii=False)
+    decode_json["commands"]["off"] = raw
 
     decode_json['fanModes'] = [speed_map[s] for s in speeds]
     decode_json['minTemperature'] = min(temperature)
