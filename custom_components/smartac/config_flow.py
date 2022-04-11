@@ -9,7 +9,7 @@ from homeassistant.const import CONF_NAME, CONF_UNIQUE_ID
 from homeassistant.core import callback
 import homeassistant.helpers.config_validation as cv
 
-from .controller import BROADLINK_CONTROLLER, ESPHOME_CONTROLLER, get_controller
+from .controller import BROADLINK_CONTROLLER, ESPHOME_CONTROLLER, MQTT_CONTROLLER, get_controller
 
 from .irext import AC, MODE_AUTO, SPEED_AUTO, POWER_ON, POWER_OFF
 
@@ -29,7 +29,7 @@ from .const import (
 
 from . import CODES_AB_DIR, _LOGGER
 
-controllers = [ESPHOME_CONTROLLER, BROADLINK_CONTROLLER]
+controllers = [ESPHOME_CONTROLLER, BROADLINK_CONTROLLER, MQTT_CONTROLLER]
 
 
 class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
@@ -183,7 +183,6 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             errors=errors,
         )
 
-
     async def async_step_other(self, user_input=None):
         # errors = {}
         if user_input is not None:
@@ -239,10 +238,13 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 _LOGGER.error("The device bin file is invalid")
                 return {CONF_DEVICE: "invalid_device_file"}
 
-        controller = get_controller(self.hass, self.config[CONF_CONTROLLER_TYPE], self.config[CONF_CONTROLLER_DATA], DEFAULT_DELAY)
+        controller = get_controller(
+            self.hass, self.config[CONF_CONTROLLER_TYPE], self.config[CONF_CONTROLLER_DATA], DEFAULT_DELAY)
 
         if not await controller.exist():
-            return {CONF_CONTROLLER_DATA: "no_such_service"}
+            error_map = {ESPHOME_CONTROLLER: "no_such_service",
+                         BROADLINK_CONTROLLER: "no_broadlink_entry", MQTT_CONTROLLER: "no_mqtt_service"}
+            return {CONF_CONTROLLER_DATA: error_map.get(self.config[CONF_CONTROLLER_TYPE])}
 
         try:
             await controller.send(raw)

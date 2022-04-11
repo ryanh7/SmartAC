@@ -117,6 +117,9 @@ class MQTTController(AbstractController):
 
         await self.hass.services.async_call(
             'mqtt', 'publish', service_data)
+    
+    async def exist(self):
+        return self.hass.services.has_service('mqtt', 'publish')
 
 
 class ESPHomeController(AbstractController):
@@ -126,10 +129,12 @@ class ESPHomeController(AbstractController):
         self._controller_data = controller_data if '.' not in controller_data else controller_data.split('.')[1]
     
     async def send(self, command):
-        for i in range(1, len(command), 2):
-            command[i] = -command[i]
+        raw = []
+        for i in range(0, len(command), 2):
+            raw.append(command[i])
+            raw.append(-command[i+1])
 
-        service_data = {'command':  command}
+        service_data = {'command':  raw}
 
         await self.hass.services.async_call(
             'esphome', self._controller_data, service_data)

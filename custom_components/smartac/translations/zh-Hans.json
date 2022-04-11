@@ -7,8 +7,10 @@
         "error": {
             "no_device_file": "缺失遥控器编码文件，请确认SmartAC组件完整性或测试下一个编码",
             "invalid_device_file": "遥控器编码文件解析失败，请换个编码试试",
-            "no_such_service": "没有找到指定的红外发射服务ID，请检查红外发射服务ID或实体ID的拼写",
-            "call_service_failed": "调用红外发射服务失败，请检查日志或重新输入正确的服务ID/实体ID"
+            "no_such_service": "没有找到指定的红外发射服务ID，请检查红外发射服务ID",
+            "no_broadlink_entry": "没有找到该实体，请检查输入的实体ID是否存在",
+            "no_mqtt_service": "没有找到MQTT服务，请检查平台是否已经配置MQTT",
+            "call_service_failed": "调用红外发射服务失败，请检查日志或重新输入正确的服务ID/实体ID/Topic"
         },
         "step": {
             "user": {
@@ -22,7 +24,7 @@
                 "data": {
                     "device": "遥控器编码",
                     "controller_type": "红外发射器类型",
-                    "controller_data": "esphome红外发射服务ID/博联红外实体ID"
+                    "controller_data": "esphome红外发射服务ID/博联红外实体ID/MQTT Topic"
                 },
                 "description": "请选择其中一个遥控器编码，提交后进入测试流程。请确保设置正确的红外发射器的服务ID或实体ID。",
                 "title": "设置遥控信息"
@@ -32,7 +34,7 @@
                     "ok": "空调已响应",
                     "device": "下一个测试的遥控器编码",
                     "controller_type": "红外发射器类型",
-                    "controller_data": "esphome红外发射服务ID/博联红外实体ID"
+                    "controller_data": "esphome红外发射服务ID/博联红外实体ID/MQTT Topic"
                 },
                 "description": "已发送开机指令，空调是否已响应？勾选并提交进入下一步，不勾选并提交继续测试下一个编码。",
                 "title": "开机"
@@ -42,7 +44,7 @@
                     "ok": "空调已响应",
                     "device": "下一个测试的遥控器编码",
                     "controller_type": "红外发射器类型",
-                    "controller_data": "esphome红外发射服务ID/博联红外实体ID"
+                    "controller_data": "esphome红外发射服务ID/博联红外实体ID/MQTT Topic"
                 },
                 "description": "已发送关机指令，空调是否已响应？勾选并提交进入其他设置，不勾选并提交继续测试下一个编码。",
                 "title": "关机"
@@ -63,7 +65,7 @@
             "init": {
                 "data": {
                     "controller_type": "红外发射器类型",
-                    "controller_data": "esphome红外发射服务ID/博联红外实体ID",
+                    "controller_data": "esphome红外发射服务ID/博联红外实体ID/MQTT Topic",
                     "temperature_sensor": "温度传感器",
                     "humidity_sensor": "湿度传感器",
                     "power_sensor": "电源传感器"

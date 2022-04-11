@@ -8,6 +8,8 @@
             "no_device_file": "缺少遙控器編碼文件，請確認 SmartAC 組件完整性或測試下一個編碼",
             "invalid_device_file": "遙控器編碼文件解析失敗，請換個編碼試試",
             "no_such_service": "沒有找到指定的紅外發射的服務，請檢查紅外發射服務ID或實體ID",
+            "no_broadlink_entry": "沒有找到該實體，請檢查輸入的實體ID是否存在",
+            "no_mqtt_service": "沒有找到MQTT服務，請檢查是否已經配置MQTT",
             "call_service_failed": "使用紅外發射服務失敗，請檢查日誌或重新輸入正確紅外發射的服務ID/實體ID"
         },
         "step": {
@@ -22,7 +24,7 @@
                 "data": {
                     "device": "遙控器編碼",
                     "controller_type": "紅外發射器類型",
-                    "controller_data": "esphome發射服務ID/博聯紅外實體ID"
+                    "controller_data": "esphome發射服務ID/博聯紅外實體ID/MQTT Topic"
                 },
                 "description": "請選擇其中一個遙控器編碼，按傳送後進入測試流程。請確認設定正確的紅外發射服務ID或實體ID",
                 "title": "設定遙控訊息"
@@ -32,7 +34,7 @@
                     "ok": "空調已回應",
                     "device": "下一個測試的遙控器編碼",
                     "controller_type": "紅外發射器類型",
-                    "controller_data": "esphome發射服務ID/博聯紅外實體ID"
+                    "controller_data": "esphome發射服務ID/博聯紅外實體ID/MQTT Topic"
                 },
                 "description": "已發送開機指令，空調是否已回應？勾選後進入下一步，不勾選後繼續測試下一個編碼",
                 "title": "開機"
@@ -42,7 +44,7 @@
                     "ok": "空調已回應",
                     "device": "下一個測試的遙控器編碼",
                     "controller_type": "紅外發射器類型",
-                    "controller_data": "esphome發射服務ID/博聯紅外實體ID"
+                    "controller_data": "esphome發射服務ID/博聯紅外實體ID/MQTT Topic"
                 },
                 "description": "已發送關機指令，空調是否已回應？勾選後進入其他設定，不勾選後繼續測試下一個編碼",
                 "title": "關機"
@@ -63,7 +65,7 @@
             "init": {
                 "data": {
                     "controller_type": "紅外發射器類型",
-                    "controller_data": "esphome發射服務ID/博聯紅外實體ID",
+                    "controller_data": "esphome發射服務ID/博聯紅外實體ID/MQTT Topic",
                     "temperature_sensor": "溫度感應器",
                     "humidity_sensor": "濕度感應器",
                     "power_sensor": "電源感應器"

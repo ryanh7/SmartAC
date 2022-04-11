@@ -2,25 +2,11 @@
   "domain": "smartac",
   "name": "SmartAC",
   "documentation": "https://github.com/ryanh7/SmartAC",
+  "issue_tracker": "https://github.com/ryanh7/SmartAC/issues",
   "config_flow": true,
   "dependencies": [],
-  "codeowners": ["@ryan"],
+  "codeowners": ["@ryanh7"],
   "requirements": [],
   "homeassistant": "2022.2.0",
-  "version": "1.1.0",
-  "updater": {
-    "version": "1.1.0",
-    "releaseNotes": "",
-    "files": [
-      "__init__.py",
-      "climate.py",
-      "config_flow.py",
-      "irext.py",
-      "const.py",
-      "manifest.json",
-      "services.yaml",
-      "controller.py",
-      "util.py"
-    ]
-  }
+  "version": "1.1.0"
 }
