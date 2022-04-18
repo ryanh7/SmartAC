@@ -130,9 +130,11 @@ class ESPHomeController(AbstractController):
     
     async def send(self, command):
         raw = []
-        for i in range(0, len(command), 2):
-            raw.append(command[i])
-            raw.append(-command[i+1])
+        for i in range(0, len(command)):
+            if i % 2 == 0:
+                raw.append(command[i])
+            else:
+                raw.append(-command[i])
 
         service_data = {'command':  raw}
 

@@ -206,7 +206,7 @@ class AC:
             item = sub.split('&')
             if len(item) < 2:
                 continue
-            self._bit_num.append({'pos': int(item[0]), 'bits': int(item[0])})
+            self._bit_num.append({'pos': int(item[0]), 'bits': int(item[1])})
 
         self._endian = 0
         if tags_data.get(TAG_AC_ENDIAN):
@@ -446,7 +446,7 @@ class AC:
             if bit_num['pos'] == index:
                 return bit_num['bits']
             if bit_num['pos'] > index:
-                return 0
+                return 8
         return 8
 
     def get_supported_mode(self):
