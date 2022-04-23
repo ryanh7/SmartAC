@@ -46,6 +46,14 @@ CHECKSUM_TYPE_SPEC_HALF_BYTE_INVERSE = 6
 CHECKSUM_TYPE_SPEC_HALF_BYTE_ONE_BYTE = 7
 CHECKSUM_TYPE_SPEC_HALF_BYTE_INVERSE_ONE_BYTE = 8
 
+AC_FUNCTION_POWER = 1
+AC_FUNCTION_MODE = 2
+AC_FUNCTION_TEMPERATURE_UP = 3
+AC_FUNCTION_TEMPERATURE_DOWN = 4
+AC_FUNCTION_WIND_SPEED = 5
+AC_FUNCTION_WIND_SWING = 6
+AC_FUNCTION_WIND_FIX = 7
+
 MODE_COOL = 0
 MODE_HEAT = 1
 MODE_AUTO = 2
@@ -176,8 +184,12 @@ class AC:
             self._function2[f[0]] = f[1:]
         # function2 end
 
-        self._solo_function = tags_data.get(
-            TAG_AC_SOLO_FUNCTION).decode()  # [len][function1][function2]
+        self._solo_function = set()
+        # [len][function1][function2]
+        solo_function_hex = tags_data.get(TAG_AC_SOLO_FUNCTION).decode()
+        if len(solo_function_hex) >= 4:
+            self._solo_function = {
+                int(func) for func in bytes.fromhex(solo_function_hex)[1:]}
 
         self._frame_len = tags_data.get(TAG_AC_FRAME_LENGTH).decode()
 
@@ -206,7 +218,10 @@ class AC:
             item = sub.split('&')
             if len(item) < 2:
                 continue
-            self._bit_num.append({'pos': int(item[0]), 'bits': int(item[1])})
+            pos = int(item[0])
+            if pos == -1:
+                pos = len(self._default_code) - 1
+            self._bit_num.append({'pos': pos, 'bits': int(item[1])})
 
         self._endian = 0
         if tags_data.get(TAG_AC_ENDIAN):
@@ -219,7 +234,7 @@ class AC:
             if len(delay) < 2:
                 continue
             self._delay.append({'pos': int(delay[0]), 'time': [
-                               int(t) for t in delay[1].split(',')]})
+                               int(t) % 65536 for t in delay[1].split(',')]})
 
         self._last_bit = int(tags_data.get(TAG_AC_LAST_BIT).decode()) if tags_data.get(
             TAG_AC_LAST_BIT) else 0
@@ -233,47 +248,51 @@ class AC:
             checksum_len = checksum_data[0]
             checksum_type = checksum_data[1]
             checksum = {'type': checksum_type}
-            if checksum_type >= 1 or checksum_type <= 4:
+            if checksum_type >= 1 and checksum_type <= 4:
                 checksum['start_byte_pos'] = checksum_data[2]
                 checksum['end_byte_pos'] = checksum_data[3]
                 checksum['checksum_byte_pos'] = checksum_data[4]
-                checksum['checksum_plus'] = checksum_data[5] if checksum_len > 5 else 0
+                checksum['checksum_plus'] = checksum_data[5] if checksum_len > 4 else 0
             elif checksum_type >= 5 and checksum_type <= 8:
                 checksum['start_byte_pos'] = 0
                 checksum['end_byte_pos'] = 0
                 checksum['checksum_byte_pos'] = checksum_data[2]
                 checksum['checksum_plus'] = checksum_data[3]
-                checksum['spec_pos'] = checksum_data[4:checksum_len]
+                checksum['spec_pos'] = checksum_data[4:]
             self._checksum.append(checksum)
 
-    def ir_decode(self, power, temperature, mode, speed, swing=0, dir=0, function_code=0):
+    def ir_decode(self, power, temperature, mode, speed, swing=0, dir=0, function_code=1):
         ir_hex = bytearray(self._default_code)
         # apply power
         if len(self._power1) > power:
             ir_hex = self._apply_type_1(ir_hex, self._power1[power])
         if power == POWER_ON:
             # apply mode:
-            if self._mode1:
-                ir_hex = self._apply_type_1(ir_hex, self._mode1[mode])
-            elif self._mode2:
-                ir_hex = self._apply_type_2(ir_hex, self._mode2[mode])
+            if AC_FUNCTION_MODE not in self._solo_function:
+                if self._mode1:
+                    ir_hex = self._apply_type_1(ir_hex, self._mode1[mode])
+                elif self._mode2:
+                    ir_hex = self._apply_type_2(ir_hex, self._mode2[mode])
             # apply speed
-            if self._speed1:
-                ir_hex = self._apply_type_1(ir_hex, self._speed1[speed])
-            elif self._speed2:
-                ir_hex = self._apply_type_2(ir_hex, self._speed2[speed])
+            if AC_FUNCTION_WIND_SPEED not in self._solo_function:
+                if self._speed1:
+                    ir_hex = self._apply_type_1(ir_hex, self._speed1[speed])
+                elif self._speed2:
+                    ir_hex = self._apply_type_2(ir_hex, self._speed2[speed])
             # apply swing
-            if self._swing1:
-                ir_hex = self._apply_type_1(ir_hex, self._swing1[swing])
-            elif self._swing2:
-                ir_hex = self._apply_type_2(ir_hex, self._swing2[swing])
+            if AC_FUNCTION_WIND_SWING not in self._solo_function and AC_FUNCTION_WIND_FIX not in self._solo_function:
+                if self._swing1:
+                    ir_hex = self._apply_type_1(ir_hex, self._swing1[swing])
+                elif self._swing2:
+                    ir_hex = self._apply_type_2(ir_hex, self._swing2[swing])
             # apply temperature
-            if self._temp1:
-                ir_hex = self._apply_type_1(
-                    ir_hex, self._temp1[temperature - 16], self._temp1_type == 'dynamic')
-            elif self._temp2:
-                ir_hex = self._apply_type_2(
-                    ir_hex, self._temp2[temperature - 16], self._temp2_type == 'dynamic')
+            if AC_FUNCTION_TEMPERATURE_UP not in self._solo_function and AC_FUNCTION_TEMPERATURE_DOWN not in self._solo_function:
+                if self._temp1:
+                    ir_hex = self._apply_type_1(
+                        ir_hex, self._temp1[temperature - 16], self._temp1_type == 'dynamic')
+                elif self._temp2:
+                    ir_hex = self._apply_type_2(
+                        ir_hex, self._temp2[temperature - 16], self._temp2_type == 'dynamic')
         # apply function
         if function_code in self._function1:
             ir_hex = self._apply_type_1(ir_hex, self._function1[function_code])
@@ -289,7 +308,7 @@ class AC:
                 value %= 256
                 value = ~value + \
                     256 if checksum['type'] == CHECKSUM_TYPE_BYTE_INVERSE else value
-                ir_hex[checksum['checksum_byte_pos']] = value
+                ir_hex[checksum['checksum_byte_pos']] = value % 256
             elif checksum['type'] == CHECKSUM_TYPE_HALF_BYTE or checksum['type'] == CHECKSUM_TYPE_HALF_BYTE_INVERSE:
                 for i in range(checksum['start_byte_pos'], checksum['end_byte_pos']):
                     value += (ir_hex[i] >> 4) + (ir_hex[i] & 0x0F)
@@ -297,7 +316,7 @@ class AC:
                 value %= 256
                 value = ~value + \
                     256 if checksum['type'] == CHECKSUM_TYPE_HALF_BYTE_INVERSE else value
-                ir_hex[checksum['checksum_byte_pos']] = value
+                ir_hex[checksum['checksum_byte_pos']] = value % 256
             elif checksum['type'] == CHECKSUM_TYPE_SPEC_HALF_BYTE or checksum['type'] == CHECKSUM_TYPE_SPEC_HALF_BYTE_INVERSE:
                 if not 'spec_pos' in checksum:
                     continue
@@ -312,10 +331,10 @@ class AC:
                 apply_byte_pos = checksum['checksum_byte_pos'] >> 1
                 if 0 == (checksum['checksum_byte_pos'] & 0x01):
                     ir_hex[apply_byte_pos] = (
-                        (ir_hex[apply_byte_pos] & 0x0F) | (checksum << 4))
+                        (ir_hex[apply_byte_pos] & 0x0F) | (value << 4)) % 256
                 else:
                     ir_hex[apply_byte_pos] = (
-                        (ir_hex[apply_byte_pos] & 0xF0) | (checksum & 0x0F))
+                        (ir_hex[apply_byte_pos] & 0xF0) | (value & 0x0F)) % 256
             elif checksum['type'] == CHECKSUM_TYPE_SPEC_HALF_BYTE_ONE_BYTE or checksum['type'] == CHECKSUM_TYPE_SPEC_HALF_BYTE_INVERSE_ONE_BYTE:
                 if not 'spec_pos' in checksum:
                     continue
@@ -328,7 +347,7 @@ class AC:
                 value = ~value + \
                     256 if checksum['type'] == CHECKSUM_TYPE_SPEC_HALF_BYTE_INVERSE_ONE_BYTE else value
                 apply_byte_pos = checksum['checksum_byte_pos'] >> 1
-                ir_hex[apply_byte_pos] = value
+                ir_hex[apply_byte_pos] = value % 256
 
         ir_raw = []
         ir_raw.extend(self._boot_code)
@@ -355,7 +374,7 @@ class AC:
         # for i in range(1, len(ir_raw), 2):
         #     ir_raw[i] = -ir_raw[i]
         ir_raw *= self._repeat_time
-        return ir_hex, ir_raw
+        return ir_raw
 
     def _apply_type_1(self, hex, data, is_temp=False):
         for i in range(0, len(data), 2):

@@ -1,5 +1,4 @@
 import asyncio
-import json
 import os.path
 from homeassistant import config_entries
 from homeassistant.core import callback, HomeAssistant

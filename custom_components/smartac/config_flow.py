@@ -233,7 +233,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 temperature = 26 if not all_temperature or 26 in all_temperature else all_temperature[
                     0]
                 power = POWER_ON if power_on else POWER_OFF
-                _, raw = ac.ir_decode(power, temperature, mode, speed)
+                raw = ac.ir_decode(power, temperature, mode, speed)
             except Exception:
                 _LOGGER.error("The device bin file is invalid")
                 return {CONF_DEVICE: "invalid_device_file"}

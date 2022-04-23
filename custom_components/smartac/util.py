@@ -44,9 +44,9 @@ def bin_to_json(bin_data):
                 mode_key = mode_map[m]
                 speed_key = speed_map[s]
                 temperature_key = "%d" % t
-                _, raw = ac.ir_decode(POWER_ON, t, m, s)
+                raw = ac.ir_decode(POWER_ON, t, m, s)
                 decode_json["commands"][mode_key][speed_key][temperature_key] = raw
-    _, raw = ac.ir_decode(POWER_OFF, 26, MODE_AUTO, SPEED_AUTO)
+    raw = ac.ir_decode(POWER_OFF, 26, MODE_AUTO, SPEED_AUTO)
 
     decode_json["commands"]["off"] = raw
 
