@@ -9,7 +9,7 @@ from homeassistant.const import CONF_NAME, CONF_UNIQUE_ID
 from homeassistant.core import callback
 import homeassistant.helpers.config_validation as cv
 
-from .controller import BROADLINK_CONTROLLER, ESPHOME_CONTROLLER, MQTT_CONTROLLER, get_controller
+from .controller import BROADLINK_CONTROLLER, ESPHOME_CONTROLLER, MQTT_CONTROLLER, OMG_CONTROLLER , get_controller
 
 from .irext import AC, MODE_AUTO, SPEED_AUTO, POWER_ON, POWER_OFF
 
@@ -29,7 +29,7 @@ from .const import (
 
 from . import CODES_AB_DIR, _LOGGER
 
-controllers = [ESPHOME_CONTROLLER, BROADLINK_CONTROLLER, MQTT_CONTROLLER]
+controllers = [ESPHOME_CONTROLLER, BROADLINK_CONTROLLER, MQTT_CONTROLLER, OMG_CONTROLLER]
 
 
 class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
