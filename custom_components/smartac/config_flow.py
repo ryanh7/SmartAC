@@ -151,7 +151,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 return await self.async_step_test_on()
 
         # test off here
-        ret = await self.async_test(self.config[CONF_DEVICE])
+        ret = await self.async_test(False)
         errors.update(ret)
 
         next_device = None
