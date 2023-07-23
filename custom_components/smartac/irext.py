@@ -71,6 +71,10 @@ POWER_OFF = 1
 
 modes = [MODE_COOL, MODE_HEAT, MODE_AUTO, MODE_FAN, MODE_DRY]
 
+SWING_ON = 0
+SWING_OFF = 1
+swing_modes = [SWING_ON, SWING_OFF]
+
 
 class AC:
 
@@ -261,7 +265,7 @@ class AC:
                 checksum['spec_pos'] = checksum_data[4:]
             self._checksum.append(checksum)
 
-    def ir_decode(self, power, temperature, mode, speed, swing=0, dir=0, function_code=1):
+    def ir_decode(self, power, temperature, mode, speed, swing=SWING_ON, dir=0, function_code=1):
         ir_hex = bytearray(self._default_code)
         # apply power
         if len(self._power1) > power:
@@ -504,3 +508,8 @@ class AC:
                 continue
             speed.append(s)
         return speed
+    
+    def get_supported_swing_mode(self):
+        if self._swing_mode not in ["0", "1"] and ( self._swing1 or self._swing2):
+            return swing_modes
+        return []

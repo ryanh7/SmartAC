@@ -79,6 +79,10 @@ async def async_setup_entry(
 
 
 class SmartACClimate(ClimateEntity, RestoreEntity):
+
+    _attr_precision = PRECISION_WHOLE
+    _attr_target_temperature_step = PRECISION_WHOLE
+
     def __init__(self, hass, config, device_data):
         self.hass = hass
         self._unique_id = config.get(CONF_UNIQUE_ID)
@@ -93,7 +97,6 @@ class SmartACClimate(ClimateEntity, RestoreEntity):
 
         self._min_temperature = device_data['minTemperature']
         self._max_temperature = device_data['maxTemperature']
-        self._precision = device_data['precision']
 
         valid_hvac_modes = [
             x for x in device_data['operationModes'] if x in HVAC_MODES]
@@ -132,7 +135,7 @@ class SmartACClimate(ClimateEntity, RestoreEntity):
             manufacturer=config.get(CONF_BRAND),
             model=config.get(CONF_MODEL)
         )
-        
+
         self._controller = get_controller(
             self.hass,
             config.get(CONF_CONTROLLER_TYPE),
@@ -148,7 +151,7 @@ class SmartACClimate(ClimateEntity, RestoreEntity):
         if last_state is not None:
             self._hvac_mode = last_state.state
             self._current_fan_mode = last_state.attributes['fan_mode']
-            self._current_swing_mode = last_state.attributes.get('swing_mode')
+            self._current_swing_mode = last_state.attributes.get('swing_mode') or self._current_swing_mode
             self._target_temperature = last_state.attributes['temperature']
 
             if 'last_on_operation' in last_state.attributes:
@@ -210,11 +213,6 @@ class SmartACClimate(ClimateEntity, RestoreEntity):
     def target_temperature(self):
         """Return the temperature we try to reach."""
         return self._target_temperature
-
-    @property
-    def target_temperature_step(self):
-        """Return the supported step of target temperature."""
-        return self._precision
 
     @property
     def hvac_modes(self):
@@ -286,10 +284,7 @@ class SmartACClimate(ClimateEntity, RestoreEntity):
             _LOGGER.warning('The temperature value is out of min/max range')
             return
 
-        if self._precision == PRECISION_WHOLE:
-            self._target_temperature = round(temperature)
-        else:
-            self._target_temperature = round(temperature, 1)
+        self._target_temperature = round(temperature)
 
         if hvac_mode:
             await self.async_set_hvac_mode(hvac_mode)
