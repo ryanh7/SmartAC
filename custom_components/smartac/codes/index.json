@@ -1,0 +1,5379 @@
+[
+    {
+        "brand_name": "\u683c\u529b",
+        "devices": [
+            {
+                "device_name": "2582",
+                "bin": "irda_new_ac_2582.bin"
+            },
+            {
+                "device_name": "10727",
+                "bin": "irda_new_ac_10727.bin"
+            },
+            {
+                "device_name": "2970",
+                "bin": "irda_new_ac_2970.bin"
+            },
+            {
+                "device_name": "2969",
+                "bin": "irda_new_ac_2969.bin"
+            },
+            {
+                "device_name": "10012",
+                "bin": "irda_new_ac_10012.bin"
+            },
+            {
+                "device_name": "10016",
+                "bin": "irda_new_ac_10016.bin"
+            },
+            {
+                "device_name": "2587",
+                "bin": "irda_new_ac_2587.bin"
+            },
+            {
+                "device_name": "2132",
+                "bin": "irda_new_ac_2132.bin"
+            },
+            {
+                "device_name": "1262",
+                "bin": "irda_new_ac_1262.bin"
+            },
+            {
+                "device_name": "1937",
+                "bin": "irda_new_ac_1937.bin"
+            },
+            {
+                "device_name": "2032",
+                "bin": "irda_new_ac_2032.bin"
+            },
+            {
+                "device_name": "2067",
+                "bin": "irda_new_ac_2067.bin"
+            },
+            {
+                "device_name": "2342",
+                "bin": "irda_new_ac_2342.bin"
+            },
+            {
+                "device_name": "2552",
+                "bin": "irda_new_ac_2552.bin"
+            },
+            {
+                "device_name": "2622",
+                "bin": "irda_new_ac_2622.bin"
+            },
+            {
+                "device_name": "10008",
+                "bin": "irda_new_ac_10008.bin"
+            },
+            {
+                "device_name": "10009",
+                "bin": "irda_new_ac_10009.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "1997",
+                "bin": "irda_new_ac_1997.bin"
+            },
+            {
+                "device_name": "2287",
+                "bin": "irda_new_ac_2287.bin"
+            },
+            {
+                "device_name": "2297",
+                "bin": "irda_new_ac_2297.bin"
+            },
+            {
+                "device_name": "2302",
+                "bin": "irda_new_ac_2302.bin"
+            },
+            {
+                "device_name": "2497",
+                "bin": "irda_new_ac_2497.bin"
+            },
+            {
+                "device_name": "2612",
+                "bin": "irda_new_ac_2612.bin"
+            },
+            {
+                "device_name": "2617",
+                "bin": "irda_new_ac_2617.bin"
+            },
+            {
+                "device_name": "2632",
+                "bin": "irda_new_ac_2632.bin"
+            },
+            {
+                "device_name": "10020",
+                "bin": "irda_new_ac_10020.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7f8e\u7684",
+        "devices": [
+            {
+                "device_name": "11272",
+                "bin": "irda_new_ac_11272.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "2607",
+                "bin": "irda_new_ac_2607.bin"
+            },
+            {
+                "device_name": "4807",
+                "bin": "irda_new_ac_4807.bin"
+            },
+            {
+                "device_name": "4627",
+                "bin": "irda_new_ac_4627.bin"
+            },
+            {
+                "device_name": "4647",
+                "bin": "irda_new_ac_4647.bin"
+            },
+            {
+                "device_name": "4782",
+                "bin": "irda_new_ac_4782.bin"
+            },
+            {
+                "device_name": "4837",
+                "bin": "irda_new_ac_4837.bin"
+            },
+            {
+                "device_name": "4847",
+                "bin": "irda_new_ac_4847.bin"
+            },
+            {
+                "device_name": "4787",
+                "bin": "irda_new_ac_4787.bin"
+            },
+            {
+                "device_name": "4802",
+                "bin": "irda_new_ac_4802.bin"
+            },
+            {
+                "device_name": "4757",
+                "bin": "irda_new_ac_4757.bin"
+            },
+            {
+                "device_name": "4722",
+                "bin": "irda_new_ac_4722.bin"
+            },
+            {
+                "device_name": "3172",
+                "bin": "irda_new_ac_3172.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4667",
+                "bin": "irda_new_ac_4667.bin"
+            },
+            {
+                "device_name": "3237",
+                "bin": "irda_new_ac_3237.bin"
+            },
+            {
+                "device_name": "12260",
+                "bin": "irda_new_ac_12260.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6d77\u5c14",
+        "devices": [
+            {
+                "device_name": "2",
+                "bin": "irda_new_ac_2.bin"
+            },
+            {
+                "device_name": "77",
+                "bin": "irda_new_ac_77.bin"
+            },
+            {
+                "device_name": "237",
+                "bin": "irda_new_ac_237.bin"
+            },
+            {
+                "device_name": "82",
+                "bin": "irda_new_ac_82.bin"
+            },
+            {
+                "device_name": "97",
+                "bin": "irda_new_ac_97.bin"
+            },
+            {
+                "device_name": "207",
+                "bin": "irda_new_ac_207.bin"
+            },
+            {
+                "device_name": "212",
+                "bin": "irda_new_ac_212.bin"
+            },
+            {
+                "device_name": "112",
+                "bin": "irda_new_ac_112.bin"
+            },
+            {
+                "device_name": "222",
+                "bin": "irda_new_ac_222.bin"
+            },
+            {
+                "device_name": "107",
+                "bin": "irda_new_ac_107.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "72",
+                "bin": "irda_new_ac_72.bin"
+            },
+            {
+                "device_name": "182",
+                "bin": "irda_new_ac_182.bin"
+            },
+            {
+                "device_name": "262",
+                "bin": "irda_new_ac_262.bin"
+            },
+            {
+                "device_name": "292",
+                "bin": "irda_new_ac_292.bin"
+            },
+            {
+                "device_name": "337",
+                "bin": "irda_new_ac_337.bin"
+            },
+            {
+                "device_name": "407",
+                "bin": "irda_new_ac_407.bin"
+            },
+            {
+                "device_name": "422",
+                "bin": "irda_new_ac_422.bin"
+            },
+            {
+                "device_name": "432",
+                "bin": "irda_new_ac_432.bin"
+            },
+            {
+                "device_name": "437",
+                "bin": "irda_new_ac_437.bin"
+            },
+            {
+                "device_name": "447",
+                "bin": "irda_new_ac_447.bin"
+            },
+            {
+                "device_name": "452",
+                "bin": "irda_new_ac_452.bin"
+            },
+            {
+                "device_name": "462",
+                "bin": "irda_new_ac_462.bin"
+            },
+            {
+                "device_name": "467",
+                "bin": "irda_new_ac_467.bin"
+            },
+            {
+                "device_name": "477",
+                "bin": "irda_new_ac_477.bin"
+            },
+            {
+                "device_name": "487",
+                "bin": "irda_new_ac_487.bin"
+            },
+            {
+                "device_name": "507",
+                "bin": "irda_new_ac_507.bin"
+            },
+            {
+                "device_name": "532",
+                "bin": "irda_new_ac_532.bin"
+            },
+            {
+                "device_name": "537",
+                "bin": "irda_new_ac_537.bin"
+            },
+            {
+                "device_name": "562",
+                "bin": "irda_new_ac_562.bin"
+            },
+            {
+                "device_name": "657",
+                "bin": "irda_new_ac_657.bin"
+            },
+            {
+                "device_name": "667",
+                "bin": "irda_new_ac_667.bin"
+            },
+            {
+                "device_name": "11847",
+                "bin": "irda_new_ac_11847.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6d77\u4fe1",
+        "devices": [
+            {
+                "device_name": "10712",
+                "bin": "irda_new_ac_10712.bin"
+            },
+            {
+                "device_name": "11677",
+                "bin": "irda_new_ac_11677.bin"
+            },
+            {
+                "device_name": "6302",
+                "bin": "irda_new_ac_6302.bin"
+            },
+            {
+                "device_name": "5897",
+                "bin": "irda_new_ac_5897.bin"
+            },
+            {
+                "device_name": "4512",
+                "bin": "irda_new_ac_4512.bin"
+            },
+            {
+                "device_name": "5192",
+                "bin": "irda_new_ac_5192.bin"
+            },
+            {
+                "device_name": "5217",
+                "bin": "irda_new_ac_5217.bin"
+            },
+            {
+                "device_name": "5252",
+                "bin": "irda_new_ac_5252.bin"
+            },
+            {
+                "device_name": "5922",
+                "bin": "irda_new_ac_5922.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "337",
+                "bin": "irda_new_ac_337.bin"
+            },
+            {
+                "device_name": "5927",
+                "bin": "irda_new_ac_5927.bin"
+            },
+            {
+                "device_name": "5932",
+                "bin": "irda_new_ac_5932.bin"
+            },
+            {
+                "device_name": "11672",
+                "bin": "irda_new_ac_11672.bin"
+            },
+            {
+                "device_name": "11717",
+                "bin": "irda_new_ac_11717.bin"
+            },
+            {
+                "device_name": "12250",
+                "bin": "irda_new_ac_12250.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5fd7\u9ad8",
+        "devices": [
+            {
+                "device_name": "3232",
+                "bin": "irda_new_ac_3232.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "3042",
+                "bin": "irda_new_ac_3042.bin"
+            },
+            {
+                "device_name": "4627",
+                "bin": "irda_new_ac_4627.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "2987",
+                "bin": "irda_new_ac_2987.bin"
+            },
+            {
+                "device_name": "3027",
+                "bin": "irda_new_ac_3027.bin"
+            },
+            {
+                "device_name": "3032",
+                "bin": "irda_new_ac_3032.bin"
+            },
+            {
+                "device_name": "3052",
+                "bin": "irda_new_ac_3052.bin"
+            },
+            {
+                "device_name": "3212",
+                "bin": "irda_new_ac_3212.bin"
+            },
+            {
+                "device_name": "3427",
+                "bin": "irda_new_ac_3427.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5927\u91d1",
+        "devices": [
+            {
+                "device_name": "9357",
+                "bin": "irda_new_ac_9357.bin"
+            },
+            {
+                "device_name": "10517",
+                "bin": "irda_new_ac_10517.bin"
+            },
+            {
+                "device_name": "5937",
+                "bin": "irda_new_ac_5937.bin"
+            },
+            {
+                "device_name": "5957",
+                "bin": "irda_new_ac_5957.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5962",
+                "bin": "irda_new_ac_5962.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5965\u514b\u65af",
+        "devices": [
+            {
+                "device_name": "9377",
+                "bin": "irda_new_ac_9377.bin"
+            },
+            {
+                "device_name": "11832",
+                "bin": "irda_new_ac_11832.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "4862",
+                "bin": "irda_new_ac_4862.bin"
+            },
+            {
+                "device_name": "25072",
+                "bin": "irda_new_ac_25072.bin"
+            },
+            {
+                "device_name": "4852",
+                "bin": "irda_new_ac_4852.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "4957",
+                "bin": "irda_new_ac_4957.bin"
+            },
+            {
+                "device_name": "11272",
+                "bin": "irda_new_ac_11272.bin"
+            },
+            {
+                "device_name": "3275",
+                "bin": "irda_new_ac_3275.bin"
+            },
+            {
+                "device_name": "4932",
+                "bin": "irda_new_ac_4932.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u677e\u4e0b",
+        "devices": [
+            {
+                "device_name": "25049",
+                "bin": "irda_new_ac_25049.bin"
+            },
+            {
+                "device_name": "25073",
+                "bin": "irda_new_ac_25073.bin"
+            },
+            {
+                "device_name": "25074",
+                "bin": "irda_new_ac_25074.bin"
+            },
+            {
+                "device_name": "25075",
+                "bin": "irda_new_ac_25075.bin"
+            },
+            {
+                "device_name": "2587",
+                "bin": "irda_new_ac_2587.bin"
+            },
+            {
+                "device_name": "3067",
+                "bin": "irda_new_ac_3067.bin"
+            },
+            {
+                "device_name": "5977",
+                "bin": "irda_new_ac_5977.bin"
+            },
+            {
+                "device_name": "5982",
+                "bin": "irda_new_ac_5982.bin"
+            },
+            {
+                "device_name": "5987",
+                "bin": "irda_new_ac_5987.bin"
+            },
+            {
+                "device_name": "4837",
+                "bin": "irda_new_ac_4837.bin"
+            },
+            {
+                "device_name": "3167",
+                "bin": "irda_new_ac_3167.bin"
+            },
+            {
+                "device_name": "6007",
+                "bin": "irda_new_ac_6007.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "10011",
+                "bin": "irda_new_ac_10011.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "TCL",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5717",
+                "bin": "irda_new_ac_5717.bin"
+            },
+            {
+                "device_name": "6012",
+                "bin": "irda_new_ac_6012.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "6022",
+                "bin": "irda_new_ac_6022.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u683c\u5170\u4ed5",
+        "devices": [
+            {
+                "device_name": "2562",
+                "bin": "irda_new_ac_2562.bin"
+            },
+            {
+                "device_name": "10567",
+                "bin": "irda_new_ac_10567.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5717",
+                "bin": "irda_new_ac_5717.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "1702",
+                "bin": "irda_new_ac_1702.bin"
+            },
+            {
+                "device_name": "1887",
+                "bin": "irda_new_ac_1887.bin"
+            },
+            {
+                "device_name": "2467",
+                "bin": "irda_new_ac_2467.bin"
+            },
+            {
+                "device_name": "2522",
+                "bin": "irda_new_ac_2522.bin"
+            },
+            {
+                "device_name": "2567",
+                "bin": "irda_new_ac_2567.bin"
+            },
+            {
+                "device_name": "2572",
+                "bin": "irda_new_ac_2572.bin"
+            },
+            {
+                "device_name": "1562",
+                "bin": "irda_new_ac_1562.bin"
+            },
+            {
+                "device_name": "3216",
+                "bin": "irda_new_ac_3216.bin"
+            },
+            {
+                "device_name": "3268",
+                "bin": "irda_new_ac_3268.bin"
+            },
+            {
+                "device_name": "3236",
+                "bin": "irda_new_ac_3236.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e09\u661f",
+        "devices": [
+            {
+                "device_name": "10007",
+                "bin": "irda_new_ac_10007.bin"
+            },
+            {
+                "device_name": "25096",
+                "bin": "irda_new_ac_25096.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3237",
+                "bin": "irda_new_ac_3237.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u957f\u8679",
+        "devices": [
+            {
+                "device_name": "5227",
+                "bin": "irda_new_ac_5227.bin"
+            },
+            {
+                "device_name": "5167",
+                "bin": "irda_new_ac_5167.bin"
+            },
+            {
+                "device_name": "5177",
+                "bin": "irda_new_ac_5177.bin"
+            },
+            {
+                "device_name": "10707",
+                "bin": "irda_new_ac_10707.bin"
+            },
+            {
+                "device_name": "5197",
+                "bin": "irda_new_ac_5197.bin"
+            },
+            {
+                "device_name": "5207",
+                "bin": "irda_new_ac_5207.bin"
+            },
+            {
+                "device_name": "5217",
+                "bin": "irda_new_ac_5217.bin"
+            },
+            {
+                "device_name": "5252",
+                "bin": "irda_new_ac_5252.bin"
+            },
+            {
+                "device_name": "5267",
+                "bin": "irda_new_ac_5267.bin"
+            },
+            {
+                "device_name": "4512",
+                "bin": "irda_new_ac_4512.bin"
+            },
+            {
+                "device_name": "5137",
+                "bin": "irda_new_ac_5137.bin"
+            },
+            {
+                "device_name": "5162",
+                "bin": "irda_new_ac_5162.bin"
+            },
+            {
+                "device_name": "5257",
+                "bin": "irda_new_ac_5257.bin"
+            },
+            {
+                "device_name": "5282",
+                "bin": "irda_new_ac_5282.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6625\u5170",
+        "devices": [
+            {
+                "device_name": "11257",
+                "bin": "irda_new_ac_11257.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "1242",
+                "bin": "irda_new_ac_1242.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5eb7\u4f73",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5372",
+                "bin": "irda_new_ac_5372.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u79d1\u9f99",
+        "devices": [
+            {
+                "device_name": "4217",
+                "bin": "irda_new_ac_4217.bin"
+            },
+            {
+                "device_name": "2842",
+                "bin": "irda_new_ac_2842.bin"
+            },
+            {
+                "device_name": "10018",
+                "bin": "irda_new_ac_10018.bin"
+            },
+            {
+                "device_name": "11677",
+                "bin": "irda_new_ac_11677.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "10013",
+                "bin": "irda_new_ac_10013.bin"
+            },
+            {
+                "device_name": "7192",
+                "bin": "irda_new_ac_7192.bin"
+            },
+            {
+                "device_name": "11797",
+                "bin": "irda_new_ac_11797.bin"
+            },
+            {
+                "device_name": "12250",
+                "bin": "irda_new_ac_12250.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6fb3\u67ef\u739b",
+        "devices": [
+            {
+                "device_name": "9377",
+                "bin": "irda_new_ac_9377.bin"
+            },
+            {
+                "device_name": "7362",
+                "bin": "irda_new_ac_7362.bin"
+            },
+            {
+                "device_name": "7367",
+                "bin": "irda_new_ac_7367.bin"
+            },
+            {
+                "device_name": "7372",
+                "bin": "irda_new_ac_7372.bin"
+            },
+            {
+                "device_name": "6792",
+                "bin": "irda_new_ac_6792.bin"
+            },
+            {
+                "device_name": "6797",
+                "bin": "irda_new_ac_6797.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "1077",
+                "bin": "irda_new_ac_1077.bin"
+            },
+            {
+                "device_name": "1227",
+                "bin": "irda_new_ac_1227.bin"
+            },
+            {
+                "device_name": "1237",
+                "bin": "irda_new_ac_1237.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e1c\u829d",
+        "devices": [
+            {
+                "device_name": "11272",
+                "bin": "irda_new_ac_11272.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "7157",
+                "bin": "irda_new_ac_7157.bin"
+            },
+            {
+                "device_name": "7162",
+                "bin": "irda_new_ac_7162.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "LG \u4e50\u91d1",
+        "devices": [
+            {
+                "device_name": "25116",
+                "bin": "irda_new_ac_25116.bin"
+            },
+            {
+                "device_name": "3532",
+                "bin": "irda_new_ac_3532.bin"
+            },
+            {
+                "device_name": "3577",
+                "bin": "irda_new_ac_3577.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "2722",
+                "bin": "irda_new_ac_2722.bin"
+            },
+            {
+                "device_name": "2827",
+                "bin": "irda_new_ac_2827.bin"
+            },
+            {
+                "device_name": "2837",
+                "bin": "irda_new_ac_2837.bin"
+            },
+            {
+                "device_name": "2847",
+                "bin": "irda_new_ac_2847.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u98de\u5229\u6d66",
+        "devices": [
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "6012",
+                "bin": "irda_new_ac_6012.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u590f\u666e",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "2817",
+                "bin": "irda_new_ac_2817.bin"
+            },
+            {
+                "device_name": "2822",
+                "bin": "irda_new_ac_2822.bin"
+            },
+            {
+                "device_name": "2927",
+                "bin": "irda_new_ac_2927.bin"
+            },
+            {
+                "device_name": "2937",
+                "bin": "irda_new_ac_2937.bin"
+            },
+            {
+                "device_name": "2842",
+                "bin": "irda_new_ac_2842.bin"
+            },
+            {
+                "device_name": "2852",
+                "bin": "irda_new_ac_2852.bin"
+            },
+            {
+                "device_name": "2862",
+                "bin": "irda_new_ac_2862.bin"
+            },
+            {
+                "device_name": "2942",
+                "bin": "irda_new_ac_2942.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e09\u83f1",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "11047",
+                "bin": "irda_new_ac_11047.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "4627",
+                "bin": "irda_new_ac_4627.bin"
+            },
+            {
+                "device_name": "3042",
+                "bin": "irda_new_ac_3042.bin"
+            },
+            {
+                "device_name": "5357",
+                "bin": "irda_new_ac_5357.bin"
+            },
+            {
+                "device_name": "5362",
+                "bin": "irda_new_ac_5362.bin"
+            },
+            {
+                "device_name": "5607",
+                "bin": "irda_new_ac_5607.bin"
+            },
+            {
+                "device_name": "5612",
+                "bin": "irda_new_ac_5612.bin"
+            },
+            {
+                "device_name": "5617",
+                "bin": "irda_new_ac_5617.bin"
+            },
+            {
+                "device_name": "5622",
+                "bin": "irda_new_ac_5622.bin"
+            },
+            {
+                "device_name": "5637",
+                "bin": "irda_new_ac_5637.bin"
+            },
+            {
+                "device_name": "5642",
+                "bin": "irda_new_ac_5642.bin"
+            },
+            {
+                "device_name": "5647",
+                "bin": "irda_new_ac_5647.bin"
+            },
+            {
+                "device_name": "5652",
+                "bin": "irda_new_ac_5652.bin"
+            },
+            {
+                "device_name": "5772",
+                "bin": "irda_new_ac_5772.bin"
+            },
+            {
+                "device_name": "5737",
+                "bin": "irda_new_ac_5737.bin"
+            },
+            {
+                "device_name": "5787",
+                "bin": "irda_new_ac_5787.bin"
+            },
+            {
+                "device_name": "5792",
+                "bin": "irda_new_ac_5792.bin"
+            },
+            {
+                "device_name": "5817",
+                "bin": "irda_new_ac_5817.bin"
+            },
+            {
+                "device_name": "5822",
+                "bin": "irda_new_ac_5822.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "5857",
+                "bin": "irda_new_ac_5857.bin"
+            },
+            {
+                "device_name": "5887",
+                "bin": "irda_new_ac_5887.bin"
+            },
+            {
+                "device_name": "3702",
+                "bin": "irda_new_ac_3702.bin"
+            },
+            {
+                "device_name": "5352",
+                "bin": "irda_new_ac_5352.bin"
+            },
+            {
+                "device_name": "5832",
+                "bin": "irda_new_ac_5832.bin"
+            },
+            {
+                "device_name": "657",
+                "bin": "irda_new_ac_657.bin"
+            },
+            {
+                "device_name": "5827",
+                "bin": "irda_new_ac_5827.bin"
+            },
+            {
+                "device_name": "1217",
+                "bin": "irda_new_ac_1217.bin"
+            },
+            {
+                "device_name": "3562",
+                "bin": "irda_new_ac_3562.bin"
+            },
+            {
+                "device_name": "3637",
+                "bin": "irda_new_ac_3637.bin"
+            },
+            {
+                "device_name": "3647",
+                "bin": "irda_new_ac_3647.bin"
+            },
+            {
+                "device_name": "3652",
+                "bin": "irda_new_ac_3652.bin"
+            },
+            {
+                "device_name": "3682",
+                "bin": "irda_new_ac_3682.bin"
+            },
+            {
+                "device_name": "3687",
+                "bin": "irda_new_ac_3687.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u53cc\u9e7f",
+        "devices": [
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "1312",
+                "bin": "irda_new_ac_1312.bin"
+            },
+            {
+                "device_name": "1372",
+                "bin": "irda_new_ac_1372.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4f0a\u83b1\u514b\u65af",
+        "devices": [
+            {
+                "device_name": "7422",
+                "bin": "irda_new_ac_7422.bin"
+            },
+            {
+                "device_name": "25117",
+                "bin": "irda_new_ac_25117.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "1502",
+                "bin": "irda_new_ac_1502.bin"
+            },
+            {
+                "device_name": "1562",
+                "bin": "irda_new_ac_1562.bin"
+            },
+            {
+                "device_name": "1682",
+                "bin": "irda_new_ac_1682.bin"
+            },
+            {
+                "device_name": "1697",
+                "bin": "irda_new_ac_1697.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u718a\u732b",
+        "devices": [
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "5472",
+                "bin": "irda_new_ac_5472.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e50\u534e",
+        "devices": [
+            {
+                "device_name": "5502",
+                "bin": "irda_new_ac_5502.bin"
+            },
+            {
+                "device_name": "5362",
+                "bin": "irda_new_ac_5362.bin"
+            },
+            {
+                "device_name": "5607",
+                "bin": "irda_new_ac_5607.bin"
+            },
+            {
+                "device_name": "5612",
+                "bin": "irda_new_ac_5612.bin"
+            },
+            {
+                "device_name": "5617",
+                "bin": "irda_new_ac_5617.bin"
+            },
+            {
+                "device_name": "5622",
+                "bin": "irda_new_ac_5622.bin"
+            },
+            {
+                "device_name": "5637",
+                "bin": "irda_new_ac_5637.bin"
+            },
+            {
+                "device_name": "5642",
+                "bin": "irda_new_ac_5642.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5647",
+                "bin": "irda_new_ac_5647.bin"
+            },
+            {
+                "device_name": "5652",
+                "bin": "irda_new_ac_5652.bin"
+            },
+            {
+                "device_name": "5657",
+                "bin": "irda_new_ac_5657.bin"
+            },
+            {
+                "device_name": "5722",
+                "bin": "irda_new_ac_5722.bin"
+            },
+            {
+                "device_name": "5737",
+                "bin": "irda_new_ac_5737.bin"
+            },
+            {
+                "device_name": "5747",
+                "bin": "irda_new_ac_5747.bin"
+            },
+            {
+                "device_name": "5752",
+                "bin": "irda_new_ac_5752.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "2707",
+                "bin": "irda_new_ac_2707.bin"
+            },
+            {
+                "device_name": "11702",
+                "bin": "irda_new_ac_11702.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u65e5\u7acb",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "2947",
+                "bin": "irda_new_ac_2947.bin"
+            },
+            {
+                "device_name": "2952",
+                "bin": "irda_new_ac_2952.bin"
+            },
+            {
+                "device_name": "2992",
+                "bin": "irda_new_ac_2992.bin"
+            },
+            {
+                "device_name": "3002",
+                "bin": "irda_new_ac_3002.bin"
+            },
+            {
+                "device_name": "3007",
+                "bin": "irda_new_ac_3007.bin"
+            },
+            {
+                "device_name": "3012",
+                "bin": "irda_new_ac_3012.bin"
+            },
+            {
+                "device_name": "11697",
+                "bin": "irda_new_ac_11697.bin"
+            },
+            {
+                "device_name": "11767",
+                "bin": "irda_new_ac_11767.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u626c\u5b50",
+        "devices": [
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "6702",
+                "bin": "irda_new_ac_6702.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "2857",
+                "bin": "irda_new_ac_2857.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u60e0\u800c\u6d66",
+        "devices": [
+            {
+                "device_name": "9377",
+                "bin": "irda_new_ac_9377.bin"
+            },
+            {
+                "device_name": "10707",
+                "bin": "irda_new_ac_10707.bin"
+            },
+            {
+                "device_name": "10712",
+                "bin": "irda_new_ac_10712.bin"
+            },
+            {
+                "device_name": "3232",
+                "bin": "irda_new_ac_3232.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3067",
+                "bin": "irda_new_ac_3067.bin"
+            },
+            {
+                "device_name": "3167",
+                "bin": "irda_new_ac_3167.bin"
+            },
+            {
+                "device_name": "11677",
+                "bin": "irda_new_ac_11677.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e09\u6d0b",
+        "devices": [
+            {
+                "device_name": "25034",
+                "bin": "irda_new_ac_25034.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "6302",
+                "bin": "irda_new_ac_6302.bin"
+            },
+            {
+                "device_name": "6037",
+                "bin": "irda_new_ac_6037.bin"
+            },
+            {
+                "device_name": "6042",
+                "bin": "irda_new_ac_6042.bin"
+            },
+            {
+                "device_name": "6052",
+                "bin": "irda_new_ac_6052.bin"
+            },
+            {
+                "device_name": "6262",
+                "bin": "irda_new_ac_6262.bin"
+            },
+            {
+                "device_name": "5207",
+                "bin": "irda_new_ac_5207.bin"
+            },
+            {
+                "device_name": "5222",
+                "bin": "irda_new_ac_5222.bin"
+            },
+            {
+                "device_name": "5237",
+                "bin": "irda_new_ac_5237.bin"
+            },
+            {
+                "device_name": "5217",
+                "bin": "irda_new_ac_5217.bin"
+            },
+            {
+                "device_name": "5227",
+                "bin": "irda_new_ac_5227.bin"
+            },
+            {
+                "device_name": "5252",
+                "bin": "irda_new_ac_5252.bin"
+            },
+            {
+                "device_name": "5257",
+                "bin": "irda_new_ac_5257.bin"
+            },
+            {
+                "device_name": "6067",
+                "bin": "irda_new_ac_6067.bin"
+            },
+            {
+                "device_name": "6167",
+                "bin": "irda_new_ac_6167.bin"
+            },
+            {
+                "device_name": "6192",
+                "bin": "irda_new_ac_6192.bin"
+            },
+            {
+                "device_name": "6237",
+                "bin": "irda_new_ac_6237.bin"
+            },
+            {
+                "device_name": "5267",
+                "bin": "irda_new_ac_5267.bin"
+            },
+            {
+                "device_name": "5837",
+                "bin": "irda_new_ac_5837.bin"
+            },
+            {
+                "device_name": "5842",
+                "bin": "irda_new_ac_5842.bin"
+            },
+            {
+                "device_name": "5847",
+                "bin": "irda_new_ac_5847.bin"
+            },
+            {
+                "device_name": "6377",
+                "bin": "irda_new_ac_6377.bin"
+            },
+            {
+                "device_name": "6502",
+                "bin": "irda_new_ac_6502.bin"
+            },
+            {
+                "device_name": "10010",
+                "bin": "irda_new_ac_10010.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u957f\u5cad",
+        "devices": [
+            {
+                "device_name": "3187",
+                "bin": "irda_new_ac_3187.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3172",
+                "bin": "irda_new_ac_3172.bin"
+            },
+            {
+                "device_name": "2992",
+                "bin": "irda_new_ac_2992.bin"
+            },
+            {
+                "device_name": "3237",
+                "bin": "irda_new_ac_3237.bin"
+            },
+            {
+                "device_name": "3007",
+                "bin": "irda_new_ac_3007.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5f00\u5229",
+        "devices": [
+            {
+                "device_name": "3472",
+                "bin": "irda_new_ac_3472.bin"
+            },
+            {
+                "device_name": "3442",
+                "bin": "irda_new_ac_3442.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "3412",
+                "bin": "irda_new_ac_3412.bin"
+            },
+            {
+                "device_name": "3457",
+                "bin": "irda_new_ac_3457.bin"
+            },
+            {
+                "device_name": "12265",
+                "bin": "irda_new_ac_12265.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5965\u529b",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6fb3\u79d1",
+        "devices": [
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u767d\u96ea",
+        "devices": [
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5317\u4eac\u4eac\u7535",
+        "devices": [
+            {
+                "device_name": "3702",
+                "bin": "irda_new_ac_3702.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6ce2\u5c14\u5361",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "1682",
+                "bin": "irda_new_ac_1682.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5927\u5b87",
+        "devices": [
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u98de\u6b4c",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "77",
+                "bin": "irda_new_ac_77.bin"
+            },
+            {
+                "device_name": "657",
+                "bin": "irda_new_ac_657.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u98de\u9e7f",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "4837",
+                "bin": "irda_new_ac_4837.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5bcc\u58eb\u901a",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e1c\u5b9d",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "6747",
+                "bin": "irda_new_ac_6747.bin"
+            },
+            {
+                "device_name": "4862",
+                "bin": "irda_new_ac_4862.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5f69\u661f",
+        "devices": [
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u957f\u98de",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u957f\u98ce",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6ce2\u4e50",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6ce2\u58eb\u9ad8",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u535a\u4e16",
+        "devices": [
+            {
+                "device_name": "4207",
+                "bin": "irda_new_ac_4207.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u521b\u534e",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "657",
+                "bin": "irda_new_ac_657.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u9ad8\u8def\u534e",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3042",
+                "bin": "irda_new_ac_3042.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4302",
+                "bin": "irda_new_ac_4302.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u534e\u5b9d",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4217",
+                "bin": "irda_new_ac_4217.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e1c\u5143",
+        "devices": [
+            {
+                "device_name": "25103",
+                "bin": "irda_new_ac_25103.bin"
+            },
+            {
+                "device_name": "25104",
+                "bin": "irda_new_ac_25104.bin"
+            },
+            {
+                "device_name": "25105",
+                "bin": "irda_new_ac_25105.bin"
+            },
+            {
+                "device_name": "25106",
+                "bin": "irda_new_ac_25106.bin"
+            },
+            {
+                "device_name": "25107",
+                "bin": "irda_new_ac_25107.bin"
+            },
+            {
+                "device_name": "25108",
+                "bin": "irda_new_ac_25108.bin"
+            },
+            {
+                "device_name": "25109",
+                "bin": "irda_new_ac_25109.bin"
+            },
+            {
+                "device_name": "25110",
+                "bin": "irda_new_ac_25110.bin"
+            },
+            {
+                "device_name": "25111",
+                "bin": "irda_new_ac_25111.bin"
+            },
+            {
+                "device_name": "25112",
+                "bin": "irda_new_ac_25112.bin"
+            },
+            {
+                "device_name": "25113",
+                "bin": "irda_new_ac_25113.bin"
+            },
+            {
+                "device_name": "25114",
+                "bin": "irda_new_ac_25114.bin"
+            },
+            {
+                "device_name": "25115",
+                "bin": "irda_new_ac_25115.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "562",
+                "bin": "irda_new_ac_562.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u65e5\u7535",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4512",
+                "bin": "irda_new_ac_4512.bin"
+            },
+            {
+                "device_name": "5192",
+                "bin": "irda_new_ac_5192.bin"
+            },
+            {
+                "device_name": "5222",
+                "bin": "irda_new_ac_5222.bin"
+            },
+            {
+                "device_name": "5237",
+                "bin": "irda_new_ac_5237.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7231\u7279",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4522",
+                "bin": "irda_new_ac_4522.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7a3b\u7530",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u91d1\u661f",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3577",
+                "bin": "irda_new_ac_3577.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u8fea\u5e15\u5c14",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e1c\u6fb3",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u51ac\u590f",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5148\u79d1",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e1c\u65b0\u5b9d",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "2952",
+                "bin": "irda_new_ac_2952.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u76fe\u5b89",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6cd5\u5170\u5b9d",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u683c\u5c14",
+        "devices": [
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5185\u7530",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5247",
+                "bin": "irda_new_ac_5247.bin"
+            },
+            {
+                "device_name": "5292",
+                "bin": "irda_new_ac_5292.bin"
+            },
+            {
+                "device_name": "5337",
+                "bin": "irda_new_ac_5337.bin"
+            },
+            {
+                "device_name": "5417",
+                "bin": "irda_new_ac_5417.bin"
+            },
+            {
+                "device_name": "5447",
+                "bin": "irda_new_ac_5447.bin"
+            },
+            {
+                "device_name": "5507",
+                "bin": "irda_new_ac_5507.bin"
+            },
+            {
+                "device_name": "3268",
+                "bin": "irda_new_ac_3268.bin"
+            },
+            {
+                "device_name": "3236",
+                "bin": "irda_new_ac_3236.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5927\u91d1\u661f",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u683c\u9633",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5149\u5927",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u53e4\u6865",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3067",
+                "bin": "irda_new_ac_3067.bin"
+            },
+            {
+                "device_name": "3167",
+                "bin": "irda_new_ac_3167.bin"
+            },
+            {
+                "device_name": "4837",
+                "bin": "irda_new_ac_4837.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u534e\u9ad8",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u534e\u79d1",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5662",
+                "bin": "irda_new_ac_5662.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u534e\u7f8e",
+        "devices": [
+            {
+                "device_name": "5667",
+                "bin": "irda_new_ac_5667.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3472",
+                "bin": "irda_new_ac_3472.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u9ec4\u6cb3",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5672",
+                "bin": "irda_new_ac_5672.bin"
+            },
+            {
+                "device_name": "3067",
+                "bin": "irda_new_ac_3067.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6c47\u4e30",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5682",
+                "bin": "irda_new_ac_5682.bin"
+            },
+            {
+                "device_name": "5687",
+                "bin": "irda_new_ac_5687.bin"
+            },
+            {
+                "device_name": "5692",
+                "bin": "irda_new_ac_5692.bin"
+            },
+            {
+                "device_name": "4627",
+                "bin": "irda_new_ac_4627.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u8fce\u71d5",
+        "devices": [
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5717",
+                "bin": "irda_new_ac_5717.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "5727",
+                "bin": "irda_new_ac_5727.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4f73\u4e50",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5742",
+                "bin": "irda_new_ac_5742.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6c5f\u6210",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6770\u58eb\u8fbe",
+        "devices": [
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u91d1\u5317\u4eac",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u91d1\u9e7f",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u91d1\u677e",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5777",
+                "bin": "irda_new_ac_5777.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5409\u5ddd",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5eb7\u4e3d",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "6372",
+                "bin": "irda_new_ac_6372.bin"
+            },
+            {
+                "device_name": "6382",
+                "bin": "irda_new_ac_6382.bin"
+            },
+            {
+                "device_name": "6422",
+                "bin": "irda_new_ac_6422.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u79d1\u5c14",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u79d1\u660e",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u9ea6\u514b\u7ef4",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "6032",
+                "bin": "irda_new_ac_6032.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6717\u6b4c",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7f8e\u5178",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7f8e\u7075",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3412",
+                "bin": "irda_new_ac_3412.bin"
+            },
+            {
+                "device_name": "3442",
+                "bin": "irda_new_ac_3442.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u540d\u4ebf",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5947\u8fea",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u84dd\u6ce2",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4667",
+                "bin": "irda_new_ac_4667.bin"
+            },
+            {
+                "device_name": "5507",
+                "bin": "irda_new_ac_5507.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u56fd\u9645",
+        "devices": [
+            {
+                "device_name": "4837",
+                "bin": "irda_new_ac_4837.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3067",
+                "bin": "irda_new_ac_3067.bin"
+            },
+            {
+                "device_name": "5987",
+                "bin": "irda_new_ac_5987.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u65e5\u5f69",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u65e5\u6c5f",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e09\u94bb",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e0a\u83f1",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "6682",
+                "bin": "irda_new_ac_6682.bin"
+            },
+            {
+                "device_name": "6692",
+                "bin": "irda_new_ac_6692.bin"
+            },
+            {
+                "device_name": "6702",
+                "bin": "irda_new_ac_6702.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7ec5\u5b9d",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u80dc\u98ce",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4837",
+                "bin": "irda_new_ac_4837.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5e05\u5eb7",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u53cc\u83f1",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5929\u6d25",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5929\u5143",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "6737",
+                "bin": "irda_new_ac_6737.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u540c\u76ca",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e07\u5b9d",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5a01\u7279\u5229",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u96fe\u5cf0",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5c0f\u9e2d",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u590f\u6d0b",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u897f\u51b7",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4837",
+                "bin": "irda_new_ac_4837.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u65b0\u98de",
+        "devices": [
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u8000\u9a6c",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7ea6\u514b",
+        "devices": [
+            {
+                "device_name": "9377",
+                "bin": "irda_new_ac_9377.bin"
+            },
+            {
+                "device_name": "10707",
+                "bin": "irda_new_ac_10707.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "2032",
+                "bin": "irda_new_ac_2032.bin"
+            },
+            {
+                "device_name": "7242",
+                "bin": "irda_new_ac_7242.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6708\u5154",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4837",
+                "bin": "irda_new_ac_4837.bin"
+            },
+            {
+                "device_name": "4847",
+                "bin": "irda_new_ac_4847.bin"
+            },
+            {
+                "device_name": "6737",
+                "bin": "irda_new_ac_6737.bin"
+            },
+            {
+                "device_name": "6777",
+                "bin": "irda_new_ac_6777.bin"
+            },
+            {
+                "device_name": "6782",
+                "bin": "irda_new_ac_6782.bin"
+            },
+            {
+                "device_name": "6787",
+                "bin": "irda_new_ac_6787.bin"
+            },
+            {
+                "device_name": "6792",
+                "bin": "irda_new_ac_6792.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "6797",
+                "bin": "irda_new_ac_6797.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u91d1\u8fbe",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "6802",
+                "bin": "irda_new_ac_6802.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e2d\u610f",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4627",
+                "bin": "irda_new_ac_4627.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4f50\u4e39",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u957f\u8c37",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "77",
+                "bin": "irda_new_ac_77.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e1c\u6d0b\u6c47\u4e30",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4627",
+                "bin": "irda_new_ac_4627.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u60e0\u5eb7",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5c71\u661f",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u661f\u6cb3",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5229\u51ef\u5c14",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5e05\u5b9d",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u51c9\u5b87",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Akira",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "1997",
+                "bin": "irda_new_ac_1997.bin"
+            },
+            {
+                "device_name": "7172",
+                "bin": "irda_new_ac_7172.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Nikko",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "7182",
+                "bin": "irda_new_ac_7182.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Loben-Sebo",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Klimatair",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u65b0\u79d1",
+        "devices": [
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "5662",
+                "bin": "irda_new_ac_5662.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "7247",
+                "bin": "irda_new_ac_7247.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Kris",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "7207",
+                "bin": "irda_new_ac_7207.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u68ee\u5b9d",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u534e\u51cc",
+        "devices": [
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5977",
+                "bin": "irda_new_ac_5977.bin"
+            },
+            {
+                "device_name": "5982",
+                "bin": "irda_new_ac_5982.bin"
+            },
+            {
+                "device_name": "3067",
+                "bin": "irda_new_ac_3067.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "7292",
+                "bin": "irda_new_ac_7292.bin"
+            },
+            {
+                "device_name": "7312",
+                "bin": "irda_new_ac_7312.bin"
+            },
+            {
+                "device_name": "7322",
+                "bin": "irda_new_ac_7322.bin"
+            },
+            {
+                "device_name": "7332",
+                "bin": "irda_new_ac_7332.bin"
+            },
+            {
+                "device_name": "11682",
+                "bin": "irda_new_ac_11682.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Uni-Atr",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "82",
+                "bin": "irda_new_ac_82.bin"
+            },
+            {
+                "device_name": "6422",
+                "bin": "irda_new_ac_6422.bin"
+            },
+            {
+                "device_name": "6382",
+                "bin": "irda_new_ac_6382.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Saijo-Denki",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3412",
+                "bin": "irda_new_ac_3412.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Alpin",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3472",
+                "bin": "irda_new_ac_3472.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Amcor",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "5837",
+                "bin": "irda_new_ac_5837.bin"
+            },
+            {
+                "device_name": "5842",
+                "bin": "irda_new_ac_5842.bin"
+            },
+            {
+                "device_name": "5847",
+                "bin": "irda_new_ac_5847.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Belcor-Classic",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5b9c\u79d1",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3387",
+                "bin": "irda_new_ac_3387.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4ee5\u83b1\u7279",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Ojun",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "4727",
+                "bin": "irda_new_ac_4727.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Opal",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Starway",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Tadiair",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u683c\u5a01\u5c14",
+        "devices": [
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "5582",
+                "bin": "irda_new_ac_5582.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5a01\u529b",
+        "devices": [
+            {
+                "device_name": "7382",
+                "bin": "irda_new_ac_7382.bin"
+            },
+            {
+                "device_name": "7392",
+                "bin": "irda_new_ac_7392.bin"
+            },
+            {
+                "device_name": "6372",
+                "bin": "irda_new_ac_6372.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "7407",
+                "bin": "irda_new_ac_7407.bin"
+            },
+            {
+                "device_name": "82",
+                "bin": "irda_new_ac_82.bin"
+            },
+            {
+                "device_name": "7207",
+                "bin": "irda_new_ac_7207.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7231\u5fb7\u9f99",
+        "devices": [
+            {
+                "device_name": "7427",
+                "bin": "irda_new_ac_7427.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7279\u7075",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3472",
+                "bin": "irda_new_ac_3472.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Amico",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7d22\u4f0a",
+        "devices": [
+            {
+                "device_name": "25100",
+                "bin": "irda_new_ac_25100.bin"
+            },
+            {
+                "device_name": "25098",
+                "bin": "irda_new_ac_25098.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5c0f\u5929\u9e45",
+        "devices": [
+            {
+                "device_name": "1682",
+                "bin": "irda_new_ac_1682.bin"
+            },
+            {
+                "device_name": "11667",
+                "bin": "irda_new_ac_11667.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7533\u82b1",
+        "devices": [
+            {
+                "device_name": "11712",
+                "bin": "irda_new_ac_11712.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u73b0\u4ee3",
+        "devices": [
+            {
+                "device_name": "3232",
+                "bin": "irda_new_ac_3232.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u8fea\u6cf0\u5c14",
+        "devices": [
+            {
+                "device_name": "3232",
+                "bin": "irda_new_ac_3232.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7f8e\u535a",
+        "devices": [
+            {
+                "device_name": "3232",
+                "bin": "irda_new_ac_3232.bin"
+            },
+            {
+                "device_name": "9377",
+                "bin": "irda_new_ac_9377.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5eb7\u62dc\u6069",
+        "devices": [
+            {
+                "device_name": "4217",
+                "bin": "irda_new_ac_4217.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e07\u5bb6\u4e50",
+        "devices": [
+            {
+                "device_name": "4217",
+                "bin": "irda_new_ac_4217.bin"
+            },
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e09\u83f1\u91cd\u5de5",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "11047",
+                "bin": "irda_new_ac_11047.bin"
+            },
+            {
+                "device_name": "3232",
+                "bin": "irda_new_ac_3232.bin"
+            },
+            {
+                "device_name": "3042",
+                "bin": "irda_new_ac_3042.bin"
+            },
+            {
+                "device_name": "5357",
+                "bin": "irda_new_ac_5357.bin"
+            },
+            {
+                "device_name": "5772",
+                "bin": "irda_new_ac_5772.bin"
+            },
+            {
+                "device_name": "5737",
+                "bin": "irda_new_ac_5737.bin"
+            },
+            {
+                "device_name": "5787",
+                "bin": "irda_new_ac_5787.bin"
+            },
+            {
+                "device_name": "5792",
+                "bin": "irda_new_ac_5792.bin"
+            },
+            {
+                "device_name": "5817",
+                "bin": "irda_new_ac_5817.bin"
+            },
+            {
+                "device_name": "5822",
+                "bin": "irda_new_ac_5822.bin"
+            },
+            {
+                "device_name": "3022",
+                "bin": "irda_new_ac_3022.bin"
+            },
+            {
+                "device_name": "5857",
+                "bin": "irda_new_ac_5857.bin"
+            },
+            {
+                "device_name": "5887",
+                "bin": "irda_new_ac_5887.bin"
+            },
+            {
+                "device_name": "3702",
+                "bin": "irda_new_ac_3702.bin"
+            },
+            {
+                "device_name": "5352",
+                "bin": "irda_new_ac_5352.bin"
+            },
+            {
+                "device_name": "5832",
+                "bin": "irda_new_ac_5832.bin"
+            },
+            {
+                "device_name": "657",
+                "bin": "irda_new_ac_657.bin"
+            },
+            {
+                "device_name": "5827",
+                "bin": "irda_new_ac_5827.bin"
+            },
+            {
+                "device_name": "1217",
+                "bin": "irda_new_ac_1217.bin"
+            },
+            {
+                "device_name": "3637",
+                "bin": "irda_new_ac_3637.bin"
+            },
+            {
+                "device_name": "3647",
+                "bin": "irda_new_ac_3647.bin"
+            },
+            {
+                "device_name": "9377",
+                "bin": "irda_new_ac_9377.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e09\u83f1\u7535\u673a",
+        "devices": [
+            {
+                "device_name": "3327",
+                "bin": "irda_new_ac_3327.bin"
+            },
+            {
+                "device_name": "3657",
+                "bin": "irda_new_ac_3657.bin"
+            },
+            {
+                "device_name": "4247",
+                "bin": "irda_new_ac_4247.bin"
+            },
+            {
+                "device_name": "4627",
+                "bin": "irda_new_ac_4627.bin"
+            },
+            {
+                "device_name": "5357",
+                "bin": "irda_new_ac_5357.bin"
+            },
+            {
+                "device_name": "5362",
+                "bin": "irda_new_ac_5362.bin"
+            },
+            {
+                "device_name": "5607",
+                "bin": "irda_new_ac_5607.bin"
+            },
+            {
+                "device_name": "5612",
+                "bin": "irda_new_ac_5612.bin"
+            },
+            {
+                "device_name": "5617",
+                "bin": "irda_new_ac_5617.bin"
+            },
+            {
+                "device_name": "5622",
+                "bin": "irda_new_ac_5622.bin"
+            },
+            {
+                "device_name": "5637",
+                "bin": "irda_new_ac_5637.bin"
+            },
+            {
+                "device_name": "5642",
+                "bin": "irda_new_ac_5642.bin"
+            },
+            {
+                "device_name": "5647",
+                "bin": "irda_new_ac_5647.bin"
+            },
+            {
+                "device_name": "5652",
+                "bin": "irda_new_ac_5652.bin"
+            },
+            {
+                "device_name": "5772",
+                "bin": "irda_new_ac_5772.bin"
+            },
+            {
+                "device_name": "5737",
+                "bin": "irda_new_ac_5737.bin"
+            },
+            {
+                "device_name": "5787",
+                "bin": "irda_new_ac_5787.bin"
+            },
+            {
+                "device_name": "5792",
+                "bin": "irda_new_ac_5792.bin"
+            },
+            {
+                "device_name": "5817",
+                "bin": "irda_new_ac_5817.bin"
+            },
+            {
+                "device_name": "5822",
+                "bin": "irda_new_ac_5822.bin"
+            },
+            {
+                "device_name": "5857",
+                "bin": "irda_new_ac_5857.bin"
+            },
+            {
+                "device_name": "5887",
+                "bin": "irda_new_ac_5887.bin"
+            },
+            {
+                "device_name": "3702",
+                "bin": "irda_new_ac_3702.bin"
+            },
+            {
+                "device_name": "5352",
+                "bin": "irda_new_ac_5352.bin"
+            },
+            {
+                "device_name": "5832",
+                "bin": "irda_new_ac_5832.bin"
+            },
+            {
+                "device_name": "657",
+                "bin": "irda_new_ac_657.bin"
+            },
+            {
+                "device_name": "5827",
+                "bin": "irda_new_ac_5827.bin"
+            },
+            {
+                "device_name": "3562",
+                "bin": "irda_new_ac_3562.bin"
+            },
+            {
+                "device_name": "3652",
+                "bin": "irda_new_ac_3652.bin"
+            },
+            {
+                "device_name": "3682",
+                "bin": "irda_new_ac_3682.bin"
+            },
+            {
+                "device_name": "3687",
+                "bin": "irda_new_ac_3687.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "10019",
+                "bin": "irda_new_ac_10019.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u9ea6\u514b\u7ef4\u5c14",
+        "devices": [
+            {
+                "device_name": "6032",
+                "bin": "irda_new_ac_6032.bin"
+            },
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7f8e\u83f1",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "3412",
+                "bin": "irda_new_ac_3412.bin"
+            },
+            {
+                "device_name": "3442",
+                "bin": "irda_new_ac_3442.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5eb7\u5229",
+        "devices": [
+            {
+                "device_name": "2807",
+                "bin": "irda_new_ac_2807.bin"
+            },
+            {
+                "device_name": "6372",
+                "bin": "irda_new_ac_6372.bin"
+            },
+            {
+                "device_name": "6382",
+                "bin": "irda_new_ac_6382.bin"
+            },
+            {
+                "device_name": "6422",
+                "bin": "irda_new_ac_6422.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Blue Star",
+        "devices": [
+            {
+                "device_name": "2556",
+                "bin": "irda_new_ac_2556.bin"
+            },
+            {
+                "device_name": "6032",
+                "bin": "irda_new_ac_6032.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Voltas",
+        "devices": [
+            {
+                "device_name": "2579",
+                "bin": "irda_new_ac_2579.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Jiangnan",
+        "devices": [
+            {
+                "device_name": "3675",
+                "bin": "irda_new_ac_3675.bin"
+            },
+            {
+                "device_name": "5227",
+                "bin": "irda_new_ac_5227.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u798f\u5948",
+        "devices": [
+            {
+                "device_name": "3648",
+                "bin": "irda_new_ac_3648.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "FUNIKI",
+        "devices": [
+            {
+                "device_name": "12260",
+                "bin": "irda_new_ac_12260.bin"
+            },
+            {
+                "device_name": "12265",
+                "bin": "irda_new_ac_12265.bin"
+            },
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Videocon",
+        "devices": [
+            {
+                "device_name": "2555",
+                "bin": "irda_new_ac_2555.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5409\u666e\u751f",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6b4c\u6797",
+        "devices": [
+            {
+                "device_name": "10015",
+                "bin": "irda_new_ac_10015.bin"
+            },
+            {
+                "device_name": "25035",
+                "bin": "irda_new_ac_25035.bin"
+            },
+            {
+                "device_name": "25039",
+                "bin": "irda_new_ac_25039.bin"
+            },
+            {
+                "device_name": "25040",
+                "bin": "irda_new_ac_25040.bin"
+            },
+            {
+                "device_name": "25041",
+                "bin": "irda_new_ac_25041.bin"
+            },
+            {
+                "device_name": "25042",
+                "bin": "irda_new_ac_25042.bin"
+            },
+            {
+                "device_name": "25043",
+                "bin": "irda_new_ac_25043.bin"
+            },
+            {
+                "device_name": "25044",
+                "bin": "irda_new_ac_25044.bin"
+            },
+            {
+                "device_name": "25045",
+                "bin": "irda_new_ac_25045.bin"
+            },
+            {
+                "device_name": "25046",
+                "bin": "irda_new_ac_25046.bin"
+            },
+            {
+                "device_name": "25048",
+                "bin": "irda_new_ac_25048.bin"
+            },
+            {
+                "device_name": "25050",
+                "bin": "irda_new_ac_25050.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u58f0\u5b9d",
+        "devices": [
+            {
+                "device_name": "10014",
+                "bin": "irda_new_ac_10014.bin"
+            },
+            {
+                "device_name": "25038",
+                "bin": "irda_new_ac_25038.bin"
+            },
+            {
+                "device_name": "25058",
+                "bin": "irda_new_ac_25058.bin"
+            },
+            {
+                "device_name": "25059",
+                "bin": "irda_new_ac_25059.bin"
+            },
+            {
+                "device_name": "25060",
+                "bin": "irda_new_ac_25060.bin"
+            },
+            {
+                "device_name": "25061",
+                "bin": "irda_new_ac_25061.bin"
+            },
+            {
+                "device_name": "25062",
+                "bin": "irda_new_ac_25062.bin"
+            },
+            {
+                "device_name": "25063",
+                "bin": "irda_new_ac_25063.bin"
+            },
+            {
+                "device_name": "25064",
+                "bin": "irda_new_ac_25064.bin"
+            },
+            {
+                "device_name": "25065",
+                "bin": "irda_new_ac_25065.bin"
+            },
+            {
+                "device_name": "25066",
+                "bin": "irda_new_ac_25066.bin"
+            },
+            {
+                "device_name": "25067",
+                "bin": "irda_new_ac_25067.bin"
+            },
+            {
+                "device_name": "25071",
+                "bin": "irda_new_ac_25071.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u963f\u739b\u7eb3",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5317\u6781\u661f",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Elba",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Croma",
+        "devices": [
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            },
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5927\u5c9b",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Central Air",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Clima Smart",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6d66\u8def\u5a01",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Intertherm",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Kiowa",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Homsys",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5e7b\u60f3\u66f2\u7535\u5668",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Hesstar",
+        "devices": [
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            },
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Fujiaire",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3216",
+                "bin": "irda_new_ac_3216.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6c49\u666e\u987f",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7f8e\u6b4c",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "MDV",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e50\u58eb",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Komeco",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "KelVinator",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5c06\u519b",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Niso",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Yamatsu",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u6c38\u5b89",
+        "devices": [
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Simplicity",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Payne",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Sumikura",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Springer",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Saunier duval",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u96ea\u82b1",
+        "devices": [
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Whisen",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Lvt",
+        "devices": [
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e07\u58eb\u76ca",
+        "devices": [
+            {
+                "device_name": "25078",
+                "bin": "irda_new_ac_25078.bin"
+            },
+            {
+                "device_name": "25079",
+                "bin": "irda_new_ac_25079.bin"
+            },
+            {
+                "device_name": "25080",
+                "bin": "irda_new_ac_25080.bin"
+            },
+            {
+                "device_name": "25081",
+                "bin": "irda_new_ac_25081.bin"
+            },
+            {
+                "device_name": "25082",
+                "bin": "irda_new_ac_25082.bin"
+            },
+            {
+                "device_name": "25083",
+                "bin": "irda_new_ac_25083.bin"
+            },
+            {
+                "device_name": "25084",
+                "bin": "irda_new_ac_25084.bin"
+            },
+            {
+                "device_name": "25085",
+                "bin": "irda_new_ac_25085.bin"
+            },
+            {
+                "device_name": "25086",
+                "bin": "irda_new_ac_25086.bin"
+            },
+            {
+                "device_name": "25087",
+                "bin": "irda_new_ac_25087.bin"
+            },
+            {
+                "device_name": "25088",
+                "bin": "irda_new_ac_25088.bin"
+            },
+            {
+                "device_name": "25089",
+                "bin": "irda_new_ac_25089.bin"
+            },
+            {
+                "device_name": "25090",
+                "bin": "irda_new_ac_25090.bin"
+            },
+            {
+                "device_name": "25091",
+                "bin": "irda_new_ac_25091.bin"
+            },
+            {
+                "device_name": "25092",
+                "bin": "irda_new_ac_25092.bin"
+            },
+            {
+                "device_name": "25093",
+                "bin": "irda_new_ac_25093.bin"
+            },
+            {
+                "device_name": "25094",
+                "bin": "irda_new_ac_25094.bin"
+            },
+            {
+                "device_name": "25095",
+                "bin": "irda_new_ac_25095.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u9633\u5149",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Godrej",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e16\u7eaa",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Sears",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e30\u81e3",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Chofu",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u4e39\u6bd4",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Singer",
+        "devices": [
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            },
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u8212\u9002\u827e\u5c14",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Armcor",
+        "devices": [
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7199\u5c14\u4ed5\u6977\u6a21",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Bosko",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u5854\u8fea\u5170",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Doctor",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Uni-air",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7c73\u52d2",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Oak",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7231\u5bb6\u4e50",
+        "devices": [
+            {
+                "device_name": "1997",
+                "bin": "irda_new_ac_1997.bin"
+            },
+            {
+                "device_name": "7172",
+                "bin": "irda_new_ac_7172.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u62cd\u5f97\u4e3d",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "Sampo",
+        "devices": [
+            {
+                "device_name": "3203",
+                "bin": "irda_new_ac_3203.bin"
+            },
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u7ef4\u53cb\u5eb7",
+        "devices": [
+            {
+                "device_name": "3200",
+                "bin": "irda_new_ac_3200.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u79be\u8054",
+        "devices": [
+            {
+                "device_name": "25015",
+                "bin": "irda_new_ac_25015.bin"
+            },
+            {
+                "device_name": "25023",
+                "bin": "irda_new_ac_25023.bin"
+            },
+            {
+                "device_name": "25025",
+                "bin": "irda_new_ac_25025.bin"
+            },
+            {
+                "device_name": "25026",
+                "bin": "irda_new_ac_25026.bin"
+            },
+            {
+                "device_name": "25027",
+                "bin": "irda_new_ac_25027.bin"
+            },
+            {
+                "device_name": "25028",
+                "bin": "irda_new_ac_25028.bin"
+            },
+            {
+                "device_name": "25031",
+                "bin": "irda_new_ac_25031.bin"
+            },
+            {
+                "device_name": "25032",
+                "bin": "irda_new_ac_25032.bin"
+            },
+            {
+                "device_name": "25033",
+                "bin": "irda_new_ac_25033.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u534e\u83f1",
+        "devices": [
+            {
+                "device_name": "25020",
+                "bin": "irda_new_ac_25020.bin"
+            },
+            {
+                "device_name": "25021",
+                "bin": "irda_new_ac_25021.bin"
+            },
+            {
+                "device_name": "25022",
+                "bin": "irda_new_ac_25022.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u65b0\u79be",
+        "devices": [
+            {
+                "device_name": "25051",
+                "bin": "irda_new_ac_25051.bin"
+            },
+            {
+                "device_name": "25099",
+                "bin": "irda_new_ac_25099.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u56fd\u83f1",
+        "devices": [
+            {
+                "device_name": "25068",
+                "bin": "irda_new_ac_25068.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u838e\u666e\u7f57",
+        "devices": [
+            {
+                "device_name": "25069",
+                "bin": "irda_new_ac_25069.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u51b0\u70b9",
+        "devices": [
+            {
+                "device_name": "25070",
+                "bin": "irda_new_ac_25070.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u827e\u666e\u987f",
+        "devices": [
+            {
+                "device_name": "25076",
+                "bin": "irda_new_ac_25076.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u60e0\u5a01",
+        "devices": [
+            {
+                "device_name": "25077",
+                "bin": "irda_new_ac_25077.bin"
+            }
+        ]
+    },
+    {
+        "brand_name": "\u592a\u4e00",
+        "devices": [
+            {
+                "device_name": "25102",
+                "bin": "irda_new_ac_25102.bin"
+            }
+        ]
+    }
+]
